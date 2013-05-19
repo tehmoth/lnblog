@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://blogs.loveandnature.co.za/www/julieland/">
+<title>julie-land</title>
+<link>http://blogs.loveandnature.co.za/www/julieland/</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-10-16T23:00:55-08:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.64" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=180" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=179" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=163" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=161" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=159" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=157" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=156" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=155" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=154" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=153" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=152" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=158" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=94" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=92" />
+<rdf:li rdf:resource="/mt/mt-xomments.cgi?entry_id=82" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=180">
+<title>The Sims 2 -  Las Vegas</title>
+<link>/mt/mt-xomments.cgi?entry_id=180</link>
+<description>So I&apos;ve gotten back into my Sims again...I got tired of cross stitching. I love my sims. I decided to make a Neighborhood called Purple Palisades. I moved Danielle and Ed of Live and then also moved mine and James&apos;s...</description>
+<dc:subject>Danielle</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-10-16T23:00:55-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=179">
+<title>The Sims 2:  Pets</title>
+<link>/mt/mt-xomments.cgi?entry_id=179</link>
+<description>Please help me by contributing to my fund. I need Sims 2: Pets. This isn&apos;t a want, this is a need. I&apos;m completed and utterly addicted. Please help. I must raise a total of $40. Click the button below. Thank...</description>
+<dc:subject>Front Page</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-10-16T22:50:56-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=163">
+<title>Some Crazy Shit</title>
+<link>/mt/mt-xomments.cgi?entry_id=163</link>
+<description>Okay, so there are many many sayings that people use or make up randomely. One of the more creative people is Tony. Here are a few random quotes from the people that I love. Tony - &quot;Oh....just punch my butthole&quot;;...</description>
+<dc:subject>Quotes &amp; Sayings</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-02-01T21:22:53-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=161">
+<title>One more smoke before bed</title>
+<link>/mt/mt-xomments.cgi?entry_id=161</link>
+<description>I am getting super sleepy, but I&apos;m having one last smokie before bed. Also, James and I are watching last week&apos;s episode of The Office. That show is so politically INCORRECT. It&apos;s absolutely hysterical. Some of the shit they say...</description>
+<dc:subject>Front Page</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-01-31T00:40:48-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=159">
+<title>The friends</title>
+<link>/mt/mt-xomments.cgi?entry_id=159</link>
+<description>I&apos;ve got four very good friends that I work with. The four of them keep my days going. Working in a call center can be very annoying and stressful. Talking to random idiots who can&apos;t figure out how to work...</description>
+<dc:subject>Work</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-01-29T23:42:17-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=157">
+<title>Hi ho, hi ho, it&apos;s off to work I go!</title>
+<link>/mt/mt-xomments.cgi?entry_id=157</link>
+<description>This is probably going to be one of my favorite places to write. Work, unfortunately, is where I spend most of my time, so there&apos;s lots to write about....</description>
+<dc:subject>Work</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-01-28T11:28:17-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=156">
+<title>Meow Meow Meow</title>
+<link>/mt/mt-xomments.cgi?entry_id=156</link>
+<description>Our cat wanted her own page. She wants to write about all the stuff she does after we let her out of the house. Here&apos;s where you&apos;ll find those writings along with her sexy kitty pictures she takes in her...</description>
+<dc:subject>Special Kitty</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-01-28T11:26:30-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=155">
+<title>The love of my life</title>
+<link>/mt/mt-xomments.cgi?entry_id=155</link>
+<description>I&apos;ll be rambling about James here, which is why he&apos;s got his own category. I love him!!!...</description>
+<dc:subject>James</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-01-28T11:25:05-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=154">
+<title>Family Stuff</title>
+<link>/mt/mt-xomments.cgi?entry_id=154</link>
+<description>I know some of you are wondering why Danielle has her own category when she&apos;s my family, well, that&apos;s because she&apos;s in her own little world and needs a whole damn category to herself. Here is where you&apos;ll find stuff...</description>
+<dc:subject>Family</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-01-28T11:23:45-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=153">
+<title>Sisser</title>
+<link>/mt/mt-xomments.cgi?entry_id=153</link>
+<description>This is where you will find all the great happenings of Danielle! Stay Tuned!!!...</description>
+<dc:subject>Danielle</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-01-28T11:22:17-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=152">
+<title>It&apos;s a new year!</title>
+<link>/mt/mt-xomments.cgi?entry_id=152</link>
+<description>Okay I got this idea to write a book about my adventures and my crazy friends. I decided I would start by writing here since it&apos;s been like nearly 2 years since I&apos;ve written on this page. I&apos;ve got some...</description>
+<dc:subject>Front Page</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-01-28T10:59:27-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=158">
+<title>Beware...Explicit Language</title>
+<link>/mt/mt-xomments.cgi?entry_id=158</link>
+<description>This page will contain lots of bad words and dirty words and words and sayings that are bad. So beware! If you don&apos;t like things that are gross, close this page! Otherwise, ENJOY!!! :) Oh, and if you have any...</description>
+<dc:subject>Quotes &amp; Sayings</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2006-01-28T03:20:55-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=94">
+<title>happy days are here again!</title>
+<link>/mt/mt-xomments.cgi?entry_id=94</link>
+<description>Today is the day that my lovely wonderful James arrives in Las Vegas!!!! It&apos;s about 1:45am and he arrives at 11:30am!!!!...</description>
+<dc:subject>My Previous Life</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2004-05-02T10:48:00-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=92">
+<title>i&apos;m baaaaaaaaaack!</title>
+<link>/mt/mt-xomments.cgi?entry_id=92</link>
+<description>ok i haven&apos;t written in forever because i couldn&apos;t tell my friend Ryan I was coming to california for his wedding. it was a HUGE surprise and it worked!! :)...</description>
+<dc:subject>My Previous Life</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2004-04-23T00:17:55-08:00</dc:date>
+</item>
+<item rdf:about="/mt/mt-xomments.cgi?entry_id=82">
+<title>Where have i been???</title>
+<link>/mt/mt-xomments.cgi?entry_id=82</link>
+<description>I have NOOOOOOOOO idea where i&apos;ve been!!!! Sorry for the slackage! I promise to not slack! ;)...</description>
+<dc:subject>My Previous Life</dc:subject>
+<dc:creator>julie</dc:creator>
+<dc:date>2004-03-03T01:49:24-08:00</dc:date>
+</item>
+
+
+</rdf:RDF>

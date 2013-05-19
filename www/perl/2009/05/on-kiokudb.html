@@ -1,0 +1,419 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>On KiokuDB - I don't hate everything</title>
+    <meta name="generator" content="Movable Type Open Source 4.1" />
+    <link rel="stylesheet" href="../../styles.css" type="text/css" />
+    
+    
+<link rel="alternate" type="application/atom+xml" title="Atom" href="../../atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml" />
+        
+<link rel="start" href="../../../perl" title="Home" />
+        
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://blogs.loveandnature.co.za/www/perl/2009/05/on-kiokudb.html">
+<dc:title>On KiokuDB</dc:title>
+<dc:description><![CDATA[So as part of this 'Modern Perl' push, I was looking at KiokuDB for persistence.&nbsp; I went through the KiokuDB::Tutorial and kept wondering why the DBI backend did it the way it did: Objects encoded into JSPON blobs, stored in...]]></dc:description>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2009-05-07T13:05:40-08:00</dc:date>
+<license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/3.0/">
+</License>
+</rdf:RDF>
+-->
+
+    
+
+    <link rel="prev" href="../04/welcome.html" title="Welcome" />
+    <link rel="next" href="netazure-and-dbdazure-anyone.html" title="Net::Azure and DBD::Azure anyone?" />
+    
+    
+
+</head>
+<body class="mt-archive-listing mt-entry-archive layout-tw">
+    <div id="container">
+        <div id="container-inner">
+            <div id="header">
+                <div id="header-inner">
+                    <div id="header-content">
+
+                        <div id="header-name"><a href="../../../perl" accesskey="1">I don't hate everything</a></div>
+                        <div id="header-description">OpenBSD, Perl and PostgreSQL, these are some of my favourite things. Python, Ruby, MySQL, Linux and  'non-relational databases' like CouchDB will not be featured much, except as examples of doing it wrong.</div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="content-inner">
+                    <div id="alpha">
+                        <div id="alpha-inner">
+
+
+<div id="entry-222" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h1 id="page-title" class="asset-name entry-title">On KiokuDB</h1>
+        <div class="asset-meta">
+    <span class="byline vcard">
+
+        By <address class="vcard author"><a class="fn url" href="http://www.loveandnature.co.za">jamesw</a></address> on <abbr class="published" title="2009-05-07T13:05:40-08:00">May  7, 2009  1:05 PM
+
+    </span>
+    <span class="separator">|</span> <a class="permalink" rel="bookmark" href="on-kiokudb.html">Permalink</a>
+    
+        | <a href="on-kiokudb.html#comments">Comments (3)</a>
+        
+    
+</div>
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            So as part of this 'Modern Perl' push, I was looking at <a href="http://www.iinteractive.com/kiokudb/">KiokuDB</a> for persistence.&nbsp; <br /><br />I went through the KiokuDB::Tutorial and kept wondering why the <a href="http://dbi.perl.org/">DBI</a> backend did it the way it did: Objects encoded into <a href="http://www.jspon.org/?mode=html">JSPON</a> blobs, stored in a single field in an 'entries' table, with "indexing" in a separate table.&nbsp; <br /><br />I could understand that that probably works well for the BerkeleyDB backend, but putting relational data into a single, essentially unindexable (doing a JOIN from another table with 'index' data doesn't count) blob field is something you really shouldn't be doing in an RDBMS.&nbsp; Basically it moves data validation and management out of the database where it belongs and into the application (A very Rails-ish way of doing things, and that is a bad thing), and making reporting or other analysis of the data impossible without the additional overhead of a Javascript/JSON library.<br /><br />So while reading I thought of several alternatives that I would have used instead, mostly PostgreSQL-specific (since that is where I live):<br /><br /><ul><li>Using PL/Perl and JSON::Any to create a set of functions for inspecting the JSPON data, which could then provide real indexing with PostgreSQL's functional indexes and make reporting possible without too much overhead on the client;</li><li>Storing the data in XML in an XML field and using PostgreSQL's XML/XPath functions for indexing/reporting on the data;</li><li>Creating a custom type for each persisted class and creating a separate table for each class containing an ID field and a field of that specific type;</li></ul>Upon thinking of the last one on the list, I realised that since CREATE TABLE actually creates a custom type in PostgeSQL, skipping the whole custom type dance, and just creating a database table for each persisted class would work and be the ideal solution.&nbsp; Have a mapping between Moose types and SQL types, create references with foreign keys, provide real indexes on single and multivalued types and enable easy integration with other tools for data reporting and analysis.<br /><br />Sadly, I doubt that Kioku's DBI backend will change at this stage, so I will probably have to write it myself, and will probably remain PostgreSQL-specific for a while.&nbsp; That is, if I find myself with the need for KiokuDB-level persistence (I usually go from database to code, not the other way round).<br /><br /><br /><br />
+        </div>
+
+
+    </div>
+    <div class="asset-footer">
+        
+                
+
+        
+                
+<div class="entry-tags">
+    <h4 class="entry-tags-header">Tags<span class="delimiter">:</span></h4>
+    <ul class="entry-tags-list">
+        <li class="entry-tag"><a href="http://blogs.loveandnature.co.za/mt/search?tag=moose%20perl%20ironman%20kiokudb%20postgresql&amp;blog_id=21&amp;IncludeBlogs=21" rel="tag">moose perl ironman kiokudb postgresql</a></li>
+    </ul>
+</div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+<div id="comments" class="comments">
+    
+    
+        
+    <h2 class="comments-header">3 Comments</h2>
+    <div class="comments-content">
+        
+        <div class="comment" id="comment-1046">
+    <div class="inner">
+        <div class="comment-header">
+            <div class="asset-meta">
+                <span class="byline">By <span class="vcard author"><a title="http://nothingmuch.woobling.org" href="http://nothingmuch.woobling.org" rel="nofollow">nothingmuch</a></span><a class="commenter-profile" href="http://nothingmuch.woobling.org"><img alt="Author Profile Page" src="http://blogs.loveandnature.co.za/mt-static/images/comment/vox_logo.png" width="16" height="16" /></a> on <a href="on-kiokudb.html#comment-1046"><abbr class="published" title="2009-05-07T16:05:42-08:00">May  7, 2009  4:05 PM</abbr></a></span>
+            </div>
+        </div>
+        <div class="comment-content">
+            <p>Hi, I'm the author of KiokuDB.</p>
+
+<p>First off, I would be very interested in your XML field approach. I think that this could make a very interesting backend option for KiokuDB. It should be fairly simple to write and could share a lot of code with the DBI backend.</p>
+
+<p>If you could come on IRC or email me (nothingmuch@woobling.org) to discuss this further I would be very grateful. Even if you have no interest in pursuing this yourself I would be very interested in trying for a PostgreSQL specific KiokuDB backend.</p>
+
+<p>Now several points responding to specific comments in the post:</p>
+
+<p>1. KiokuDB doesn't attempt to do things "right" from a DBA standpoint. It essentially treats its backends as opaque key-value stores. Whether you should or shouldn't do that with an RDBMs depends on what you're trying to do.</p>
+
+<p>Since the goal is to store data that is not expressible in the relational model the DB cannot be used to perform validation. Neither graph structures nor open ended polymorphism can be encoded in relational algebra without denormalizing (for instance the way nested set hacks project the transitive closure of the tree's child/parent relationship into 1 dimensional lookup space).</p>
+
+<p>2. For what it's worth, the DBI backend also supports per row values in custom columns, but they are not used for storage, only for lookups. This is similar to what you propose doing in PG with PL/SQL, but it's done before the insert, and is designed to work with any SQL backend obviously.</p>
+
+<p>3. Another reason indexing is done in perl space as opposed to by the database is so that the object's API can be used to extract interesting keys, that may not be available verbatim in the stored data. Since many index keys could be extracted the relationship is inherently N:N. Most databases can't provide this without array types (though if my memory serves me right this should be possible to do in PG). Since the DBI backend also targets SQLite and MySQL (which is arguably not an RDBMS at all) the auxillary table is used instead.</p>
+
+<p>4. The multiple table approach poses problems when you fetch solely based on the ID. Without using name mangling that ensures that the table to query can be extrapolated from the ID you can't know what to query. This is possible in KiokuDB (pretty easy to do, too) but imposes a backend specific implementation detail onto the ID generation.</p>
+
+<p>Keep in mind that the goal of the DBI backend is to work just like the plain file or Berkeley DB backends. The system is not designed to be an ORM. For that I use DBIx::Class =)</p>
+
+<p>Lastly, I reccomend using JSON.pm instead of JSON::Any nowadays. JSON.pm will automatically load JSON::XS if available, but without the risk of using an incompatible implementation (JSON::PC, JSON::Syck and JSON::DWIW all vary considerably in their subtleties).</p>
+
+<p>Cheers,<br />
+Yuval</p>
+        </div>
+    </div>
+</div>
+
+
+        
+    
+        
+        <div class="comment" id="comment-1056">
+    <div class="inner">
+        <div class="comment-header">
+            <div class="asset-meta">
+                <span class="byline">By <span class="vcard author">Alan</span> on <a href="on-kiokudb.html#comment-1056"><abbr class="published" title="2009-08-19T17:31:05-08:00">August 19, 2009  5:31 PM</abbr></a></span>
+            </div>
+        </div>
+        <div class="comment-content">
+            <p>Hi,</p>
+
+<p>I am just now examining docs on Moose+KiokuDB+DBI-Backend.<br />
+One may want to be able to work with the rdbms data independently<br />
+(if not via an SQL client, then as noted above, by examining<br />
+some XML representation of the instance. (However preserving<br />
+a meaningful ability to do SQL queries would be good)<br />
+If one is using an RDBMS backend but one is not able to use<br />
+RDBMS queries or benefit from the RDBM's efficiency/performance,<br />
+then why would want to opt for the RDBMS back-end anyway?</p>
+        </div>
+    </div>
+</div>
+
+
+        
+    
+        
+        <div class="comment" id="comment-1057">
+    <div class="inner">
+        <div class="comment-header">
+            <div class="asset-meta">
+                <span class="byline">By <span class="vcard author">jamesw</span><a class="commenter-profile" href="http://www.loveandnature.co.za"><img alt="Author Profile Page" src="http://blogs.loveandnature.co.za/mt-static/images/comment/mt_logo.png" width="16" height="16" /></a> on <a href="on-kiokudb.html#comment-1057"><abbr class="published" title="2009-08-19T20:14:15-08:00">August 19, 2009  8:14 PM</abbr></a></span>
+            </div>
+        </div>
+        <div class="comment-content">
+            <p>It is more than possible to persist objects into and retrieve objects from  relational databases (ORMs do it all the time), even without storing values in BLOBs or TEXT or XML or some other non-relational format.  It just requires the kind of change control (keeping table fields and object attributes in sync) that too many projects are fine with giving up. sadly.</p>
+        </div>
+    </div>
+</div>
+
+
+        
+    </div>
+        
+    
+    
+    
+
+    
+</div>
+
+
+
+                        </div>
+                    </div>
+
+                <div id="beta">
+    <div id="beta-inner">
+
+    <div class="widget-search widget">
+    <h3 class="widget-header">Search</h3>
+    <div class="widget-content">
+        <form method="get" action="http://blogs.loveandnature.co.za/mt/search">
+            <input type="text" id="search" class="ti" name="search" value="" />
+
+            <input type="hidden" name="IncludeBlogs" value="21" />
+
+            <input type="submit" accesskey="4" value="Search" />
+        </form>
+    </div>
+</div>
+
+<div class="widget-about-this-page widget">
+    <h3 class="widget-header">
+
+        About this Entry
+
+
+    </h3>
+    <div class="widget-content">
+
+
+        <p class="first">This page contains a single entry by <a href="http://www.loveandnature.co.za">jamesw</a> published on <em>May  7, 2009  1:05 PM</em>.</p>
+    
+        <p><a href="../04/welcome.html">Welcome</a> was the previous entry in this blog.</p>
+    
+    
+        <p><a href="netazure-and-dbdazure-anyone.html">Net::Azure and DBD::Azure anyone?</a> is the next entry in this blog.</p>
+    
+
+
+
+
+
+        <p>Find recent content on the <a href="../../../perl">main index</a> or look in the <a href="../../archives.html">archives</a> to find all content.</p>
+
+    </div>
+</div>
+
+
+
+
+
+    
+<div class="widget-archive widget-archive-category widget">
+    <h3 class="widget-header">Categories</h3>
+    <div class="widget-content">
+    
+    </div>
+</div>
+
+
+
+
+    
+    
+        
+<div class="widget-archive-monthly widget-archive widget">
+    <h3 class="widget-header">Monthly <a href="../../archives.html">Archives</a></h3>
+    <div class="widget-content">
+        <ul class="widget-list">
+        
+            <li class="widget-list-item"><a href="../../2010/06/index.html">June 2010 (1)</a></li>
+        
+    
+        
+            <li class="widget-list-item"><a href="../../2010/05/index.html">May 2010 (1)</a></li>
+        
+    
+        
+            <li class="widget-list-item"><a href="../08/index.html">August 2009 (1)</a></li>
+        
+    
+        
+            <li class="widget-list-item"><a href="../07/index.html">July 2009 (1)</a></li>
+        
+    
+        
+            <li class="widget-list-item"><a href="../06/index.html">June 2009 (1)</a></li>
+        
+    
+        
+            <li class="widget-list-item"><a href="index.html">May 2009 (3)</a></li>
+        
+    
+        
+            <li class="widget-list-item"><a href="../04/index.html">April 2009 (1)</a></li>
+        
+        </ul>
+    </div>
+</div>
+        
+    
+
+
+
+
+<div class="widget-pages widget">
+    <h3 class="widget-header">Pages</h3>
+    <div class="widget-content">
+    
+    
+   </div>
+</div>
+
+<script type="text/javascript" src="../../mt.js"></script>
+<div class="widget-sign-in widget">
+    <h3 class="widget-header">Sign In</h3>
+    <div class="widget-content">
+<script type="text/javascript">
+<!--
+var name, id, url, blog_ids;
+if (typeof(commenter_name) != 'undefined')
+    name = commenter_name
+if (typeof(commenter_id) != 'undefined')
+    id = commenter_id;
+if (typeof(commenter_url) != 'undefined')
+    url = commenter_url;
+if (typeof(commenter_blog_ids) != 'undefined')
+    blog_ids = commenter_blog_ids;
+
+if (!name && !id) {
+    if ('blogs.loveandnature.co.za' != 'blogs.loveandnature.co.za') {
+        document.write('<scr' + 'ipt src="http://blogs.loveandnature.co.za/mt/comments?__mode=cmtr_name_js">');
+        document.write("</scr" + "ipt>");
+    } else {
+        name = getCookie('commenter_name');
+        ids = getCookie('commenter_id').split(':');
+        id = ids[0];
+        blog_ids = ids[1];
+        url = getCookie('commenter_url');
+    }
+}
+showMessage(name, id, url);
+
+function showMessage(commenter_name, commenter_id, commenter_url) {
+    static = location.href;
+    if ( commenter_name &&
+         ( !commenter_id 
+        || commenter_blog_ids.indexOf("'21'") > -1))
+    {
+        var url;
+        if (commenter_id) {
+            url = 'http://blogs.loveandnature.co.za/mt/comments?__mode=edit_profile&commenter=' + commenter_id + '&blog_id=21';
+            url += '&static=' + static;
+        } else if (commenter_url) {
+            url = commenter_url;
+        } else {
+            url = null;
+        }
+        var content = 'You are signed in as ';
+        if (url) {
+            content += '<a href="' + url + '">' + commenter_name + '</a>';
+        } else {
+            content += commenter_name;
+        }
+        content += '.  (<a href="http://blogs.loveandnature.co.za/mt/comments?__mode=handle_sign_in&amp;logout=1&amp;entry_id=222&static=' + static + '">sign out</a>)';
+        document.write(content);
+    } else if (commenter_name) {
+        document.write('You do not have permission to sign in to this blog. (<a href="http://blogs.loveandnature.co.za/mt/comments?__mode=handle_sign_in&amp;logout=1&amp;entry_id=222&static=' + static + '">sign out</a>)');
+    } else {
+    
+    }
+}
+//-->
+</script>
+    </div>
+</div>
+<div class="widget-syndication widget">
+    <div class="widget-content">
+        <ul class="blog-feeds">
+            <li class="blog feed"><img src="http://blogs.loveandnature.co.za/mt-static/images/status_icons/feed.gif" alt="Subscribe to feed" width="9" height="9" /> <a href="../../rss.xml">Subscribe to this blog's feed</a></li>
+
+        </ul>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footer-inner">
+                    <div id="footer-content">
+                        <div class="widget-powered widget">
+                            <div class="widget-content">
+                                Powered by <a href="http://www.movabletype.com/">Movable Type Open Source</a>
+                            </div>
+                        </div>
+
+                        <div class="widget-creative-commons widget">
+                            <div class="widget-content">
+                                This blog is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons License</a>.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

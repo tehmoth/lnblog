@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://blogs.loveandnature.co.za/www/mothman/">
+<title>mothman blogs?</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-02-07T18:39:32+02:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=4.1" />
+
+<cc:license rdf:resource="http://creativecommons.org/licenses/by/1.0/" />
+
+
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2006/02/openbsd_ports.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2006/01/objectivexpcom.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2006/01/hello_mozfreeq.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2005/09/hello.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2005/02/anime_otakus_busted.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2005/02/the_idn_nonissue.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2004/12/forget_flash.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2004/12/xmas_shopping.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/the_robert_alberg_story.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/gnews2rss.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/livejournal0wned.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/the_greatest_song_youve_never_heard.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2004/02/ie_sucks_elephant_testicle_new_layout.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2004/01/liquifright.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/mothman/archives/2004/01/threaded_comments.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2006/02/openbsd_ports.html">
+<title>openbsd ports</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2006/02/openbsd_ports.html</link>
+<description>openbsd ports weblog i have created a new (we)blog to manage any unofficial openbsd ports i create seeing as ports@ is not an appropriate venue for posting them at the moment (approaching 3.9 code freeze)....</description>
+<dc:subject>development</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-02-07T18:39:32+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2006/01/objectivexpcom.html">
+<title>objective-xpcom</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2006/01/objectivexpcom.html</link>
+<description>so anyway, i had an idea to combine two things to create a more useful whole: 1) Objective-C, a very nice object oriented extension to C, instead of a C-like object-oriented language (C++), needs a framework to be fully functional...</description>
+<dc:subject>development</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-01-30T11:15:14+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2006/01/hello_mozfreeq.html">
+<title>hello mozfreeq</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2006/01/hello_mozfreeq.html</link>
+<description>this is for you, you lazy piece of shit no good, good for nothing perl code disaster....</description>
+<dc:subject>stuff</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-01-24T07:14:19+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2005/09/hello.html">
+<title>Hello</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2005/09/hello.html</link>
+<description>echo .. echo .. echo...</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2005-09-24T20:04:26+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2005/02/anime_otakus_busted.html">
+<title>anime otakus: busted!</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2005/02/anime_otakus_busted.html</link>
+<description>Here&apos;s a little article for all you anime fans to take to heart: Common Misconceptions Regarding Anime and Manga in it the crap the average otaku speaks is shown for what it really is: a bunch of polished, shining turds....</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2005-02-25T12:59:20+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2005/02/the_idn_nonissue.html">
+<title>the IDN non-issue</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2005/02/the_idn_nonissue.html</link>
+<description>apparently there&apos;s a new phishing attack out there that uses modern browsers&apos; (except IE heh) support for the IDN (international characters in URL support) standard. This involved replacing latin characters with unicode characters with similar appearance. This is only a...</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2005-02-09T19:18:24+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2004/12/forget_flash.html">
+<title>Forget Flash</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2004/12/forget_flash.html</link>
+<description>ALLADYN Project homepage The Alladyn project is a cross-platform DHTML library that enables you to create animations and effects, which can replace most functionality of swf files (that being a good thing.) It is free for non-commercial use, but unfortunately...</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2004-12-30T22:17:49+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2004/12/xmas_shopping.html">
+<title>xmas shopping?</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2004/12/xmas_shopping.html</link>
+<description>want some crap to buy for your strange relatives and friends this christmas, here are some places to go: The Original Poop Shop Poop Star Store fsck store i (heart) unix store Saddam Face on Stuff Store Skull n Bones...</description>
+<dc:subject>stuff</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2004-12-15T21:11:00+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/the_robert_alberg_story.html">
+<title>the robert alberg story</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/the_robert_alberg_story.html</link>
+<description>ricin and martian landscapes</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2004-04-27T17:30:25+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/gnews2rss.html">
+<title>gnews2rss</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/gnews2rss.html</link>
+<description>click here An experimental convertor that takes a Google News search and turns it into RSS...</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2004-04-17T23:48:42+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/livejournal0wned.html">
+<title>livejournal.0wned</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/livejournal0wned.html</link>
+<description>well anyway if you want to laugh and mock some livejournal people and what they post; click here this link gets autoupdated from the lj stats page ... please don&apos;t overclick it or i will have you hunted down and...</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2004-04-14T03:42:26+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/the_greatest_song_youve_never_heard.html">
+<title>the greatest song you&apos;ve never heard</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/the_greatest_song_youve_never_heard.html</link>
+<description>mp3 download here realaudi stream here...</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2004-04-10T02:38:48+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2004/02/ie_sucks_elephant_testicle_new_layout.html">
+<title>ie sucks elephant testicle (new layout)</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2004/02/ie_sucks_elephant_testicle_new_layout.html</link>
+<description>so now there&apos;s this new layout to this blog here ... we have switched to meta-blogging now soon i&apos;ll be putting up pictures of myself looking pensive ... drinking mocha latte and talking about how being middle class is such...</description>
+<dc:subject>stuff</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2004-02-07T23:22:40+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2004/01/liquifright.html">
+<title>liqui-fright</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2004/01/liquifright.html</link>
+<description>here&apos;s a story of dubious authenticity about liqui-fruit, the person who forwarded it to me didn&apos;t even include &apos;Mandy Bijl&apos;&apos;s email address couple things i) the tone was very off: &apos;We phoned Liqui Fruit helpline who immediately wanted to send...</description>
+<dc:subject>stuff</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2004-01-24T18:21:14+02:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2004/01/threaded_comments.html">
+<title>Threaded Comments</title>
+<link>http://blogs.loveandnature.co.za/www/mothman/archives/2004/01/threaded_comments.html</link>
+<description>MTThreadedComments It looks cool, but it also appears really brittle and prone to accidental breakege, comments? if anyone is there at all....</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2004-01-04T23:35:49+02:00</dc:date>
+</item>
+
+
+</rdf:RDF>

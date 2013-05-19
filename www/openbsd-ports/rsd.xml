@@ -1,0 +1,12 @@
+<?xml version="1.0"?> 
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+  <service>
+    <engineName>Movable Type 4.1</engineName> 
+    <engineLink>http://www.movabletype.org/</engineLink>
+    <homePageLink>http://blogs.loveandnature.co.za/www/openbsd-ports/</homePageLink>
+    <apis>
+      <api name="MetaWeblog" preferred="true" apiLink="http://blogs.loveandnature.co.za/mt/xmlrpc" blogID="14" />
+      <api name="Blogger" preferred="false" apiLink="http://blogs.loveandnature.co.za/mt/xmlrpc" blogID="14" />
+    </apis>
+  </service>
+</rsd>

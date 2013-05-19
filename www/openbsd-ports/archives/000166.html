@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>openbsd-ports: mozilla xulrunner 1.8.0.1</title>
+
+<link rel="stylesheet" href="../styles-site.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../index.rdf" />
+
+<link rel="start" href="../index.html" title="Home" />
+
+<link rel="prev" href="000165.html" title="mozilla seamonkey" />
+
+
+<link rel="next" href="000167.html" title="seamonkey screenshots" />
+
+
+<script type="text/javascript" language="javascript">
+<!--
+
+function OpenTrackback (c) {
+    window.open(c,
+                    'trackback',
+                    'width=480,height=480,scrollbars=yes,status=yes');
+}
+
+var HOST = 'blogs.loveandnature.co.za';
+
+// Copyright (c) 1996-1997 Athenia Associates.
+// http://www.webreference.com/js/
+// License is granted if and only if this entire
+// copyright notice is included. By Tomer Shiran.
+
+function setCookie (name, value, expires, path, domain, secure) {
+    var curCookie = name + "=" + escape(value) + ((expires) ? "; expires=" + expires.toGMTString() : "") + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + ((secure) ? "; secure" : "");
+    document.cookie = curCookie;
+}
+
+function getCookie (name) {
+    var prefix = name + '=';
+    var c = document.cookie;
+    var nullstring = '';
+    var cookieStartIndex = c.indexOf(prefix);
+    if (cookieStartIndex == -1)
+        return nullstring;
+    var cookieEndIndex = c.indexOf(";", cookieStartIndex + prefix.length);
+    if (cookieEndIndex == -1)
+        cookieEndIndex = c.length;
+    return unescape(c.substring(cookieStartIndex + prefix.length, cookieEndIndex));
+}
+
+function deleteCookie (name, path, domain) {
+    if (getCookie(name))
+        document.cookie = name + "=" + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+}
+
+function fixDate (date) {
+    var base = new Date(0);
+    var skew = base.getTime();
+    if (skew > 0)
+        date.setTime(date.getTime() - skew);
+}
+
+function rememberMe (f) {
+    var now = new Date();
+    fixDate(now);
+    now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000);
+    setCookie('mtcmtauth', f.author.value, now, '', HOST, '');
+    setCookie('mtcmtmail', f.email.value, now, '', HOST, '');
+    setCookie('mtcmthome', f.url.value, now, '', HOST, '');
+}
+
+function forgetMe (f) {
+    deleteCookie('mtcmtmail', '', HOST);
+    deleteCookie('mtcmthome', '', HOST);
+    deleteCookie('mtcmtauth', '', HOST);
+    f.email.value = '';
+    f.author.value = '';
+    f.url.value = '';
+}
+
+//-->
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+<div id="banner">
+<h1><a href="../index.html" accesskey="1">openbsd-ports</a></h1>
+<span class="description">my unofficial collection of openbsd ports</span>
+</div>
+
+<div id="container">
+
+<div class="blog">
+
+<div id="menu">
+
+<a href="000165.html">&laquo; mozilla seamonkey</a> |
+
+<a href="../index.html">Main</a>
+
+| <a href="000167.html">seamonkey screenshots &raquo;</a>
+
+</div>
+
+</div>
+
+
+<div class="blog">
+
+<h2 class="date">February  7, 2006</h2>
+
+<div class="blogbody">
+
+<h3 class="title">mozilla xulrunner 1.8.0.1</h3>
+
+<p><a href="xulrunner-1_8_0_1p0.tgz">Download file</a> - <span style="color: red;">Updated</span></p>
+
+<p>this is a first attempt at a Xul Runner port based on the 1.8.0.1 release (the first source release.)  <a href="http://www.mozilla.org/projects/xulrunner/">homepage</a></p>
+
+<a name="more"></a>
+<p>issues:<br />
+doesn't install the sdk<br />
+doesn't install samples<br />
+needs more information in pkg/MESSAGE or files/README.OpenBSD</p>
+
+<div style="color: red;">Update:<br />
+added more details in files/README.OpenBSD<br />
+fixed a bug where --install-app would install into /usr/lib instead of /usr/local/lib
+</div>
+
+<span class="posted">Posted by jamesw at February  7, 2006  8:50 AM
+
+<br /></span>
+
+</div>
+
+
+</div>
+</div>
+</body>
+</html>

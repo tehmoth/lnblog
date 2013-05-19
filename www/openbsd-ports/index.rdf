@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/">
+<title>openbsd-ports</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/</link>
+<description>my unofficial collection of openbsd ports</description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2009-04-28T02:40:53-08:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=4.1" />
+
+
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000220.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000214.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000187.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000181.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000174.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000173.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000168.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000167.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000166.html" />
+
+<rdf:li rdf:resource="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000165.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000220.html">
+<title>the end of the beginning?</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000220.html</link>
+<description>Here is where you&apos;ll find my collection of unofficial ports and patches for openbsd. That&apos;s all for this blog I think, now I&apos;ll be blogging for perl(when I can) at a blog with a name as yet undecided. Cue the...</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2009-04-28T02:40:53-08:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000214.html">
+<title>new ports $#$</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000214.html</link>
+<description>galeon and epiphany, once they&apos;re done, whats next? Leave a comment....</description>
+<dc:subject></dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2007-01-30T10:45:53-08:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000187.html">
+<title>hooray for seamonkeys</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000187.html</link>
+<description>seamonkey 1.0.6 port, no 1.1.0 yet. Download file...</description>
+<dc:subject>seamonkey</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-12-02T01:51:12-08:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000181.html">
+<title>update</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000181.html</link>
+<description>its been a while, but expect to see an update soon, since a recent nspr (the foundation of the mozilla projects) has landed on the openbsd ports tree and the mozilla-* ports are being switched to it. expect to see...</description>
+<dc:subject>seamonkey</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-11-10T20:12:46-08:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000174.html">
+<title>seamonkey 1.0.2</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000174.html</link>
+<description>Seamonkey 1.0.2 (finally) Download...</description>
+<dc:subject>seamonkey</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-06-09T07:51:59-08:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000173.html">
+<title>seamonkey 1.0.1</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000173.html</link>
+<description>Download file Updated! update of seamonkey port to 1.0.1...</description>
+<dc:subject>seamonkey</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-04-15T14:13:16-08:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000168.html">
+<title>xulrunner examples</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000168.html</link>
+<description>i put together a few xulrunner example projects that you can install like this: # xulrunner --install-app application.xpi these XPIs work with any 1.8.0.x version of Xul Runner on any of the platforms it runs on....</description>
+<dc:subject>xulrunner</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-02-08T17:03:03-08:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000167.html">
+<title>seamonkey screenshots</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000167.html</link>
+<description>i put together a few screenshots of seamonkey running on openbsd. i&apos;m using pekwm window manager and running the Modern - Mozillium theme...</description>
+<dc:subject>seamonkey</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-02-07T10:16:23-08:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000166.html">
+<title>mozilla xulrunner 1.8.0.1</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000166.html</link>
+<description>Download file - Updated this is a first attempt at a Xul Runner port based on the 1.8.0.1 release (the first source release.) homepage...</description>
+<dc:subject>xulrunner</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-02-07T08:50:55-08:00</dc:date>
+</item>
+
+<item rdf:about="http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000165.html">
+<title>mozilla seamonkey</title>
+<link>http://blogs.loveandnature.co.za/www/openbsd-ports/archives/000165.html</link>
+<description>Download file This is a port of mozilla seamonkey 1.0, the re-engineered mozilla suite (browser, mail, irc, html editor) homepage...</description>
+<dc:subject>seamonkey</dc:subject>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2006-02-07T08:47:20-08:00</dc:date>
+</item>
+
+
+</rdf:RDF>

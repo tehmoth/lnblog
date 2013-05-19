@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>mothman blogs?: gnews2rss</title>
+
+<link rel="stylesheet" href="../../../styles-site.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../../index.rdf" />
+
+<link rel="start" href="../../../../mothman" title="Home" />
+
+<link rel="prev" href="livejournal0wned.html" title="livejournal.0wned" />
+
+
+<link rel="next" href="the_robert_alberg_story.html" title="the robert alberg story" />
+
+
+<script type="text/javascript" language="javascript">
+<!--
+
+function OpenTrackback (c) {
+    window.open(c,
+                    'trackback',
+                    'width=480,height=480,scrollbars=yes,status=yes');
+}
+
+var HOST = 'blogs.loveandnature.co.za';
+
+// Copyright (c) 1996-1997 Athenia Associates.
+// http://www.webreference.com/js/
+// License is granted if and only if this entire
+// copyright notice is included. By Tomer Shiran.
+
+function setCookie (name, value, expires, path, domain, secure) {
+    var curCookie = name + "=" + escape(value) + ((expires) ? "; expires=" + expires.toGMTString() : "") + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + ((secure) ? "; secure" : "");
+    document.cookie = curCookie;
+}
+
+function getCookie (name) {
+    var prefix = name + '=';
+    var c = document.cookie;
+    var nullstring = '';
+    var cookieStartIndex = c.indexOf(prefix);
+    if (cookieStartIndex == -1)
+        return nullstring;
+    var cookieEndIndex = c.indexOf(";", cookieStartIndex + prefix.length);
+    if (cookieEndIndex == -1)
+        cookieEndIndex = c.length;
+    return unescape(c.substring(cookieStartIndex + prefix.length, cookieEndIndex));
+}
+
+function deleteCookie (name, path, domain) {
+    if (getCookie(name))
+        document.cookie = name + "=" + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+}
+
+function fixDate (date) {
+    var base = new Date(0);
+    var skew = base.getTime();
+    if (skew > 0)
+        date.setTime(date.getTime() - skew);
+}
+
+function rememberMe (f) {
+    var now = new Date();
+    fixDate(now);
+    now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000);
+    setCookie('mtcmtauth', f.author.value, now, '', HOST, '');
+    setCookie('mtcmtmail', f.email.value, now, '', HOST, '');
+    setCookie('mtcmthome', f.url.value, now, '', HOST, '');
+}
+
+function forgetMe (f) {
+    deleteCookie('mtcmtmail', '', HOST);
+    deleteCookie('mtcmthome', '', HOST);
+    deleteCookie('mtcmtauth', '', HOST);
+    f.email.value = '';
+    f.author.value = '';
+    f.url.value = '';
+}
+
+//-->
+</script>
+
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://blogs.loveandnature.co.za/www/mothman/archives/2004/04/gnews2rss.html">
+<dc:title>gnews2rss</dc:title>
+<dc:description>click here An experimental convertor that takes a Google News search and turns it into RSS...</dc:description>
+<dc:creator>jamesw</dc:creator>
+<dc:date>2004-04-17T23:48:42+02:00</dc:date>
+<license rdf:resource="http://creativecommons.org/licenses/by/1.0/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/1.0/">
+<requires rdf:resource="http://web.resource.org/cc/Attribution" />
+<requires rdf:resource="http://web.resource.org/cc/Notice" />
+<permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+<permits rdf:resource="http://web.resource.org/cc/Distribution" />
+<permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+</rdf:RDF>
+-->
+
+
+
+</head>
+
+<body>
+
+<div id="banner">
+<h1><a href="../../../../mothman" accesskey="1">mothman blogs?</a></h1>
+<span class="description"></span>
+</div>
+
+<div id="container" style="scrolling: auto">
+
+<div class="blog">
+
+<div id="menu">
+
+<a href="livejournal0wned.html">&laquo; livejournal.0wned</a> |
+
+<a href="../../../../mothman">Main</a>
+
+| <a href="the_robert_alberg_story.html">the robert alberg story &raquo;</a>
+
+</div>
+
+</div>
+
+
+<div class="blog">
+
+<h2 class="date">April 17, 2004</h2>
+
+<div class="blogbody">
+
+<h3 class="title">gnews2rss</h3>
+
+<p><a title="gnews2rss" href="http://www.loveandnature.co.za/gnews2rss.php">click here</a></p>
+
+<p>An experimental convertor that takes a Google News search and turns it into RSS</p>
+
+<a name="more"></a>
+<p>add in a search that you want to monitor @ news.google.com, and take the resulting url into your newsreader (RSS not NNTP, heh)</p>
+
+<p>if you don't understand what this is about, don't bother...</p>
+
+<p>thanks<br />
+(as with the previous entry, overuse of this service will result in painful decapitation)</p>
+
+<span class="posted">Posted by jamesw at April 17, 2004 11:48 PM
+
+<br /></span>
+
+</div>
+
+
+</div>
+</div>
+</body>
+</html>

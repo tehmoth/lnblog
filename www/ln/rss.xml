@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Love And Nature</title>
+        <link>http://blogs.loveandnature.co.za/www/ln/</link>
+        <description></description>
+        <language>en-us</language>
+        <copyright>Copyright 2012</copyright>
+        <lastBuildDate>Mon, 20 Sep 2010 08:08:49 -0800</lastBuildDate>
+        <generator>http://www.sixapart.com/movabletype/</generator>
+        <docs>http://www.rssboard.org/rss-specification</docs>
+        
+        <item>
+            <title>IRCD:: The Return</title>
+            <description><![CDATA[So, the IRCD is back up and running, new IP Address is 67.21.95.88, (we are still waiting in expectation of XName to update the IP address of irc.loveandnature.co.za to that <i>real soon now</i>, <b>HOW IS THAT EMAIL ADDRESS GOING, DUSTY?</b>).<br /><br /><a href="irc://67.21.95.88/love_and_nature"><font style="font-size: 1.5625em;">Chat!</font></a><br /> ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2010/09/ircd-the-return.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2010/09/ircd-the-return.html</guid>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">irc</category>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">meta</category>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">irc meta loveandnature dusty slacker</category>
+            
+            <pubDate>Mon, 20 Sep 2010 08:08:49 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>IRCd Downtime (due to Linux)</title>
+            <description><![CDATA[Since our <a href="http://www.sphosting.com/"><i>awesome</i> new IRCd hosters</a> have decided that it would be no big deal to switch us from FreeBSD to Linux (without mentioning it at all).&nbsp; Obviously that is ridiculous so now irc.loveandnature.co.za is looking for a new IRCd hoster, one that runs a BSD (Free or Open preferable, NetBSD acceptable).&nbsp; Recommendations welcome.&nbsp; ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2010/09/ircd-downtime-due-to-linux.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2010/09/ircd-downtime-due-to-linux.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">irc linux sphosting crap</category>
+            
+            <pubDate>Wed, 01 Sep 2010 16:49:17 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>NEW IP Address for irc.loveandnature.co.za</title>
+            <description><![CDATA[And this time it isn't our fault, though Dusty has to bear at least a little blame (ask him about my email address).<br /><br />The new IP Address for irc.loveandnature.co.za is 72.20.14.210, so use /server 72.20.14.210 until xname (being the epitome of quality DNS management that it is), updates the DNS. ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2010/05/new-ip-address-for-ircloveandn.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2010/05/new-ip-address-for-ircloveandn.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">irc meta dusty</category>
+            
+            <pubDate>Thu, 13 May 2010 01:23:39 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>IRCD Back up</title>
+            <description><![CDATA[Thanks to Moth and Joolee the IRCD is now back up. <br />Measures are being put in place to prevent downtime in the future.<br />If you do have any problems please contact us by any means possible!!! Comments here, moth's or my msn/yahoo/icq/aim/gtalk/anything or the contact us thingy over there on that side, no no, the other side, STAGE LEFT!<br /><br />Now come and idle with us you slackers!<br /><br />In unrelated news: [Spunge]<br /> ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2009/10/ircd-back-up.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2009/10/ircd-back-up.html</guid>
+            
+            
+            <pubDate>Sat, 24 Oct 2009 03:58:27 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>IRCD Down for a bit</title>
+            <description><![CDATA[Hello all!!<br /><br /><strike>The IRCD is down for now. So don't try connect to irc.loveandnature.co.za<br />This is due to problems getting money from south african banks to american banks. Pathetic in this day and age I know but we'll have the problem resolved asap.<br />We'll contact ya'll as soon as the IRCD is back up and running and ya'll better come and chat with us! Or we'll hunt you down and moth will infect you with a virus to wipe out all your data!!!HAHAHAHEHaheahehae.... ok not really, but pretend we're serious.</strike><br /><br />In unrelated news, watch District 9. Its AWESOME!<br /> ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2009/10/ircd-down-for-a-bit.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2009/10/ircd-down-for-a-bit.html</guid>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">irc</category>
+            
+            
+            <pubDate>Tue, 13 Oct 2009 11:55:24 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>Everything Old Is New Again</title>
+            <description><![CDATA[Hello!<br /><br />You may have noticed a few freshly added links to the sidebar, and if you are really paying attention you'll probably realise they are not so much new, as returning links.&nbsp; <br /><br />The <a href="http://www.loveandnature.co.za/stats.html">Chat Stats</a> page has made its return almost unchanged, but the <a href="http://www.loveandnature.co.za/book">Guestbook</a> and <a href="http://www.loveandnature.co.za/gallery">Pictures</a> sections (now partially re-dubbed 'User Gallery') have been re-designed and re-built for your viewing pleasure.&nbsp; <br /><br />New to the <a href="http://www.loveandnature.co.za/book#sign">Guestbook</a> is the use of <a href="http://recaptcha.net/">reCAPTCHA</a> captchas to curb the tide of spam there and e-mail and URL filters, so those can be entered and not harvested by travelling spam-robots.<br /><br />The <a href="http://www.loveandnature.co.za/gallery">Gallery</a> (formerly Pictures) has been totally re-designed (The original 'design' was one huge page with thumbnails of all the pictures on it) and now features User Categories (basically indicating a chatter's frequency of chatting), <a href="http://www.loveandnature.co.za/gallery/page/1">multiple</a> <a href="http://www.loveandnature.co.za/gallery/page/2">pages</a> and an expanded <a href="http://www.loveandnature.co.za/gallery/show/dusty">Individual Picture page</a>.&nbsp; The new Individual Picture page now includes Nick, Description, URL and Status fields, as well as a means for people to <a href="http://www.loveandnature.co.za/gallery/show/dusty#comment">comment</a> on each picture (with a reCAPTCHA captcha to keep it spam free, of course).&nbsp; <br /><br />Both the Guestbook and Individual Picture pages have <a href="http://www.problogger.net/what-is-rss/">RSS</a> feeds that you can add to your feed reader, Google Reader or Live Bookmarks.<br /><br />Also recently added are a number of methods of connecting to our IRC servers:&nbsp; <br /><ul><li><a href="http://chat.loveandnature.co.za/java.cgi">Java Chat</a>, which lets you chat via a Java Applet; </li><li><a href="irc://irc.loveandnature.co.za/love_and_nature">IRC Chat</a>, which opens your default handler for irc:// links and connects to us (<a href="http://www.mirc.com/">mIRC</a>, <a href="http://silverex.org/">X-Chat</a> and <a href="http://chatzilla.hacksrus.com/">ChatZilla</a> can all be registered as handlers); </li><li><a href="http://chat.loveandnature.co.za/">CGI Chat</a>, which uses our <a href="http://cgiirc.org/">CGI-IRC</a> to connect to our servers; and </li><li><a href="http://chat.loveandnature.co.za/mibbit.cgi">Mibbit Chat</a>, which uses <a href="http://www.mibbit.com/">Mibbit</a>'s Web to IRC gateway to connect.&nbsp; </li></ul><br />The last two should work anywhere web-browsing works.<br /><br />Thank you, you may now return to your scheduled whatever it is you were doing.<br /><br /><br /> ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2009/07/everything-old-is-new-again.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2009/07/everything-old-is-new-again.html</guid>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">irc</category>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">meta</category>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">meta irc chat website</category>
+            
+            <pubDate>Fri, 31 Jul 2009 01:10:10 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>IRC downtime</title>
+            <description><![CDATA[Our primary IRC server is experiencing unexpected downtime, we will try to get it back online in a day or two.&nbsp; In the meantime, connect to server <a href="irc://irc2.loveandnature.co.za/">irc2.loveandnature.co.za</a> for your IRC needs.&nbsp; Our CGI is using Mibbit for the time being, so connect with that or use Java or a desktop IRC client.<br /> ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2009/06/irc-downtime.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2009/06/irc-downtime.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">irc meta</category>
+            
+            <pubDate>Mon, 22 Jun 2009 15:11:35 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>Love and Nature IRC has MOVED!</title>
+            <description><![CDATA[We have moved to a new IRC, and we're in control.<br /><br />Details are as follows. IRC server is now: <a href="irc://irc.loveandnature.co.za/love_and_nature"><u><b>irc.loveandnature.co.za</b></u></a> port <u><b>6667</b><br /></u>Still in <a href="http://chat.loveandnature.co.za/"><u><b>#love_and_nature</b></u></a><br /><br />(We also have #help, #chat and #trivia)<br />Please make adjustments to your IRC client.<br /><br /><u><b>REGISTER YOUR NICKNAMES!</b></u><br /><br />Standard Nickserv, Chanserv, Memoserv (if you are feeling<br />nostalgic, <i>PeasantServ</i>, <i>TavernServ</i> and <i>ScrollServ</i> do work).<br /><br />Syntax: REGISTER password [email]<br /><br />Registers your nickname in the NickServ database.&nbsp; Once<br />your nick is registered, you can use the SET and ACCESS<br />commands to configure your nick's settings as you like<br />them.&nbsp; Make sure you remember the password you use when<br />registering - you'll need it to make changes to your nick<br />later.&nbsp; (Note that case matters!&nbsp; ANOPE, Anope, and <br />anope are all different passwords!)<br /><br /><strike>If you require assistance in connecting we're still on the old <br />server for a limited time.</strike><br />If you require assistance registering or anything else, come<br />talk to us on the new server.<br /> ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2008/08/love-and-nature-irc-has-moved.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2008/08/love-and-nature-irc-has-moved.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">irc</category>
+            
+            <pubDate>Sun, 17 Aug 2008 06:25:57 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>STATS AND STUFF</title>
+            <description><![CDATA[<p><b>Stats under (re-)construction</b></p>
+
+<p>Our Beloved mothman is currently working on converting our stats to a revolutionary database system!!!</p>
+
+<p>If you would like more information on the progress and changes, come and ask us in IRC.</p>
+
+<p>We are improving mozfreeq much and much and stuff and encourage you to come and look at the changes we've made. Our mozfreeq is becoming one sexy AI bot.</p>
+
+<p>Do you have any suggestions for things you'd like to see mozfreeq do? Let us know.</p>
+
+<p>MOST OF ALL COME AND CHAT WITH US YOU SLACKERS</p>
+
+<p>xchat downloads below. Ask us for IRC servers.</p>
+
+<p> <strike>Kitty finds your sacrifice acceptable.</strike><br />
+</p>]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2007/04/stats-and-stuff.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2007/04/stats-and-stuff.html</guid>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">irc</category>
+            
+            
+            <pubDate>Wed, 18 Apr 2007 16:55:34 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>Donald is a mutant</title>
+            <description><![CDATA[<p>With the newest picture of Donald/Gajiru we finally have proof of what we always knew:  he is a green blooded mutant.</p>
+
+<p><br />
+The proof: the head growing from his arm:</p>]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2006/08/donald-is-a-mutant.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2006/08/donald-is-a-mutant.html</guid>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">irc</category>
+            
+            
+            <pubDate>Thu, 24 Aug 2006 22:34:17 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>xchat 2 for windows</title>
+            <description><![CDATA[<p>if you have a need for a new xchat than version 1.8 and you're on windows you can get it <a href="http://www.silverex.org/download/">here</a>.  Some people seem to like it, but others prefer the look of x-chat 1.8 which is still available <a href="http://blogs.loveandnature.co.za/www/ln/archive/000133.html">here</a>.</p>]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2006/07/xchat-2-for-windows.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2006/07/xchat-2-for-windows.html</guid>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">irc</category>
+            
+            
+            <pubDate>Sun, 16 Jul 2006 13:46:09 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>Stats reset</title>
+            <description><![CDATA[<p>Hello!</p>
+
+<p>mozfreeq has finally settled down, so now the <a href="http://www.loveandnature.co.za/stats.html">stats</a> have been reset.  You know what this means, CHAT you slackers!</p>]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2006/01/stats-reset.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2006/01/stats-reset.html</guid>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">irc</category>
+            
+            
+            <pubDate>Sat, 28 Jan 2006 05:09:00 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>Hello Windows Users!</title>
+            <description><![CDATA[<p>Tired of endless exploits against your widely used but rather insecure operating system?  We recommend the <a href="http://force.coresecurity.com/index.php?module=base&page=about">Core Force</a> security system.  It protects your computer, learns your (inter)network habits keeping your computer safe from known and uknown exploits (Santa Claus Worm anyone?).  In addition its based on OpenBSD's Pf packet filter, which is double plus good.</p>
+
+<p><b>And Its <blink>Free</blink>.</b></p>]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2005/12/hello-windows-users.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2005/12/hello-windows-users.html</guid>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">meta</category>
+            
+            
+            <pubDate>Thu, 22 Dec 2005 09:00:48 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>Innocence in the Flesh!</title>
+            <description><![CDATA[<p><style type="text/css"><br />
+A:link { color:#4682B4; text-decoration:crosshair; }<br />
+A:active { color:#4682B4; text-decoration:none; }<br />
+A:visited { color:#4682B4; text-decoration:none; }<br />
+A:hover { color:#CC4E5C; text-decoration:none; }<br />
+<!--A{text-decoration:none;cursor:crosshair}--><br />
+</style><br />
+<font color="#D8BFD8" font size="2" face="Tahoma"><b>All right. So it's been forever since anybody has entered anything on here, so I have taken this duty upon myself. As moth would put it: slackers. Here are some updated pictures of me .... and one that practically radiates with my angelic innocence. The last one. :)</b></font> </p>
+
+<p><img alt="Gwen`White5.jpg" src="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`White5.jpg" width="360" height="602" border="0" /><br />
+<br><br><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`White2.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/Gwen`White2.html','popup','width=375,height=770,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Another one in white, at the same time as the previous one.</a><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Hall.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Hall.html','popup','width=650,height=450,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Going partying. Yarr.</a><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Sweater.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Sweater.html','popup','width=420,height=630,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">In a sweater, going to dinner.</a><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Halloween1.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Halloween1.html','popup','width=460,height=765,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Halloween image. In corset again. Just for snoops and nightshift. :) Why don't you go suck some cock?</a><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Halloween2.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Halloween2.html','popup','width=650,height=810,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Another Halloween one.</a><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Pink`Smooch.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Pink`Smooch.html','popup','width=300,height=400,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">BIG SMOOCH! I miss my tan.</a><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Black`Sad.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Black`Sad.html','popup','width=510,height=820,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Picture taken for a Medieval Faire contest... I failed showing up though, so I don't think I won. ;_;</a><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Pink.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Pink.html','popup','width=466,height=938,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Doink. Doink.</a><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/gwen`tshirtbadass1.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/gwen`tshirtbadass1.html','popup','width=525,height=680,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Drunken night. 12/02/05. Fantastic. In my PJ shirt.</a><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Hat6.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Hat6.html','popup','width=1120,height=840,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Really cold out. I love my hat. :) I look like a little girl.</a><br />
+<a href="http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Hat7.html" onclick="window.open('http://blogs.loveandnature.co.za/www/ln/archive/Gwen`Hat7.html','popup','width=1120,height=840,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">INNOCENCE IN THE FLESH.</a><br />
+<br><br><br />
+<font color="#D8BFD8" font size="2" face="Tahoma"><b>COME FUCKING CHAT.</font></b></p>]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2005/12/innocence-in-the-flesh.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2005/12/innocence-in-the-flesh.html</guid>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">irc</category>
+            
+            
+            <pubDate>Tue, 06 Dec 2005 01:19:00 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>mail problems?</title>
+            <description><![CDATA[<p>We recently moved our server and did just general cleaning up of unneeded crap.  If your @loveandnature.co.za or @bsdhosting.co.za mail has stopped working, its for what we consider a good reason.  </p>
+
+<p>If you disagree feel free to <a href="irc://irc.hashmark.net/love_and_nature">discuss</a> it with us. </p>]]></description>
+            <link>http://blogs.loveandnature.co.za/www/ln/2005/11/mail-problems.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/ln/2005/11/mail-problems.html</guid>
+            
+                <category domain="http://www.sixapart.com/ns/types#category">personal</category>
+            
+            
+            <pubDate>Tue, 22 Nov 2005 03:22:49 -0800</pubDate>
+        </item>
+        
+    </channel>
+</rss>

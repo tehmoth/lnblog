@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>I don&apos;t hate everything</title>
+        <link>http://blogs.loveandnature.co.za/www/perl/</link>
+        <description>OpenBSD, Perl and PostgreSQL, these are some of my favourite things. Python, Ruby, MySQL, Linux and  &apos;non-relational databases&apos; like CouchDB will not be featured much, except as examples of doing it wrong.</description>
+        <language>en</language>
+        <copyright>Copyright 2012</copyright>
+        <lastBuildDate>Wed, 02 Jun 2010 16:12:10 -0800</lastBuildDate>
+        <generator>http://www.sixapart.com/movabletype/</generator>
+        <docs>http://www.rssboard.org/rss-specification</docs>
+        
+        <item>
+            <title>alas poor http://search.cpan.org/uploads.rdf</title>
+            <description><![CDATA[It would be nice if my feed reader / <a href="http://search.cpan.org/dist/XML-Feed">XML::Feed</a> using script could parse <a href="http://search.cpan.org/uploads.rdf">http://search.cpan.org/uploads.rdf</a> but sadly, owing to a <a href="http://search.cpan.org/%7Edavidp/">certain</a> CPAN Author's <a href="http://search.cpan.org/dist/Device-Kiln-Orton/">modules</a> containing embedded backspaces (^H), the uploads.rdf generating code produces invalid XML (it converts ^H to &amp;#x8; which is an invalid XML character), and shockingly enough, most feed readers (and XML::Feed) validate feed XML before parsing.<br /><br /><br /><br /> ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/perl/2010/06/alas-poor-httpsearchcpanorgupl.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/perl/2010/06/alas-poor-httpsearchcpanorgupl.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">cpan perl ironman rdf xml</category>
+            
+            <pubDate>Wed, 02 Jun 2010 16:12:10 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>a less magical with block.</title>
+            <description><![CDATA[For some reason lately there has been interest in re-creating the Javascript <i>with</i> function in Perl (despite the fact that ES5 Strict removes with and with has problems of its own).&nbsp; These seem to be focused on using code-rewriting solutions (Source filters and Devel::Declare), which use too much magic for too little syntactical gain, why not something like the following:<br /><br />package WithBlock;<br />use strict;<br />use warnings;<br />use Scalar::Util 'blessed';<br />use Exporter qw{import};<br />our @EXPORT = qw{with dowith};<br />sub with($&amp;) {<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; no strict 'refs';<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; my $pkg = caller(0);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; my ($scope, $sub) = @_;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; my $class = blessed $scope || $scope;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; my @withsubs;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; local *{"${pkg}::AUTOLOAD"} = sub {<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; our $AUTOLOAD;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; my ($method) = ($AUTOLOAD =~ m{.+::(.+)$}g);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (my $isub = $scope-&gt;can($method)) {<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; push @withsubs, $AUTOLOAD;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *{$AUTOLOAD} = sub {<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unshift @_, $scope;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; goto &amp;$isub;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; };<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; goto &amp;{$AUTOLOAD};<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; die "Undefined subroutine &amp;$AUTOLOAD called"<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; };<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $sub-&gt;();<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; foreach my $sub (@withsubs) {<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; undef *{$sub};<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br />}<br /><br />sub dowith(&amp;$) {<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @_[0, 1] = @_[1, 0];<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; goto __PACKAGE__-&gt;can('with');<br />}<br /><br />Admittedly you don't get the 'nice' syntax of <i>with ($object) { code block }</i> you have to settle for <i>with $object, sub { code block }</i> or <i>dowith { code block } $object.&nbsp; </i>WithBlock only works for functions of $object that aren't already defined in your current scope.<br /><br /><i><br /></i><br /> ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/perl/2010/05/a-less-magical-with-block.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/perl/2010/05/a-less-magical-with-block.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">perl ironman with</category>
+            
+            <pubDate>Sun, 16 May 2010 23:34:48 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>Grammars in Perl 5.10</title>
+            <description><![CDATA[So inspired by both <a href="http://perlgeek.de/blog-en/perl-6/visualizing-match-trees.html">this</a> post by moritz and the awesome <a href="http://search.cpan.org/%7Edconway/Regexp-Grammars-1.001005/lib/Regexp/Grammars.pm">Regexp::Grammars</a> module on CPAN, I created a Perl 5.10 version of the perl 6 code (also using <a href="http://search.cpan.org/%7Elbrocard/GraphViz-2.04/lib/GraphViz/Data/Grapher.pm">GraphViz::Data::Grapher</a>).&nbsp; There are a few differences, such as naming the top rule, the '' element that Regexp::Grammars creates, and the output format which comes from GraphViz::Data::Grapher (I am outputting to png since GraphViz's as_svg [well dot's SVG output, technically] outputs the wrong size for the outer svg tag).<br /><br />]]></description>
+            <link>http://blogs.loveandnature.co.za/www/perl/2009/08/grammars-in-perl-510.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/perl/2009/08/grammars-in-perl-510.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">perl perl6 grammar</category>
+            
+            <pubDate>Sat, 22 Aug 2009 09:23:55 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>Bugzilla?</title>
+            <description><![CDATA[So I am subscribed to a number of <a href="http://ironman.enlightenedperl.org/">Perl-related blogs</a> and <a href="http://planet.perl.org/">aggregators</a>, but when a large Perl web application with an impressive list of users gets updated, I only find out from <a href="http://www.freshmeat.net/">Freshmeat</a> and <a href="http://planet.mozilla.org/">Planet Mozilla</a>.<br /><br />Perhaps if it was developed with Moose or using Catalyst?<br /><br /><br /> ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/perl/2009/07/bugzilla.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/perl/2009/07/bugzilla.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">perl ironman bugzilla freshmeat mozilla</category>
+            
+            <pubDate>Wed, 29 Jul 2009 04:29:37 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>This is not xkcd</title>
+            <description><![CDATA[<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><a href="http://blogs.loveandnature.co.za/www/perl/2009/06/07/perl1.html" onclick="window.open('http://blogs.loveandnature.co.za/www/perl/2009/06/07/perl1.html','popup','width=518,height=588,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="http://blogs.loveandnature.co.za/www/perl/2009/06/07/perl1-thumb-300x341.png" alt="image here, won't work with lynx" title="python, we were doing so well until our functions got too long and our control structures too deeply nested, then you turned ugly" class="mt-image-none" style="" height="341" width="300" /></a></span>]]></description>
+            <link>http://blogs.loveandnature.co.za/www/perl/2009/06/this-is-not-xkcd.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/perl/2009/06/this-is-not-xkcd.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">perl ironman parody xkcd</category>
+            
+            <pubDate>Sun, 07 Jun 2009 08:11:35 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>EPIC4? wtf?</title>
+            <description><![CDATA[Ok, so I was looking to integrate some perl scripts into my IRC client, which happens to be <a href="http://www.epicsol.org/">EPIC</a>, version 4, as EPIC5 seems to be trying to be the Perl6 of the text-mode IRC clients, and I'm not quite there yet (irssi, meanwhile is the Ruby of text-mode IRC clients).&nbsp; So I was looking for the correct syntax for the perlcall(6) function, (as opposed to the perl(6) and perlxcall(6) functions), and I get this from /HELP 6 perlcall:<br /><br /><blockquote>*** Help on perlcall<br /></blockquote>and that was it.&nbsp; Looking at /usr/local/share/epic/6_Functions/ for perlcall I see it is 0 bytes long.&nbsp; And so I look and there are 81 files like that.&nbsp; Shurely Shome mishtake right?&nbsp; Apparently not, asking in <a href="irc://irc.efnet.org/epic">#epic</a> I get informed that I should use the wiki, because 'it makes it a lot easier for us to give you correct/updated information'.&nbsp; Pathetic, really.&nbsp; Why can't the documentation be in source control and shipped with the source code?&nbsp; The online help pages that they have (which aren't categorized, its just a flat dump) could be generated from the text files instead.&nbsp; But oh no, we need a Wiki for documentation, and must have an internet connection just to read documentation, ugh.&nbsp; EPIC devs use Unix, right, they aren't hacking the source on their iPhones or Palms. right?<br /><br />Now, ironically, I will need the perl*call documentation to write a reader of the Wiki documentation so I can use it in EPIC (maybe).&nbsp; Lovely.&nbsp; More on that later.<br /><br />  ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/perl/2009/05/epic4-wtf.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/perl/2009/05/epic4-wtf.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">webstupid irc epic perl wiki wacky</category>
+            
+            <pubDate>Tue, 19 May 2009 14:59:57 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>Net::Azure and DBD::Azure anyone?</title>
+            <description><![CDATA[<a href="http://phpazure.codeplex.com/">PHP SDK for Windows Azure</a><br /><br />So, of course, to show its commitment to open-source, Microsoft has released PHP APIs for Windows Azure.&nbsp; I'm not sure I understand the love Microsoft has for PHP, but I could be snarky and say the PHP philosophy fits in neatly with Microsoft's languages philosophy.&nbsp; <br /><br />Anyway, as much as I wish Microsoft would introduce Perl APIs for Azure, I do not hold out much hope, and instead see this as an opportunity for enterprising Perl coders to outdo the official APIs and increase the number of problem domains where Perl is a possible solution.&nbsp; The API seems to be mostly HTTP and XML with some extensions (it is Microsoft, after all).&nbsp; If after completing the other 700 items in my todo list, this is still undone, I'll get right on it.<br /><br />Also worth noting, re: Azure, is FastCGI support, a definite plus for Perl developers.<br /><br />So, in summary, Web Apps, REST/XML and FastCGI.&nbsp; A near perfect fit for Perl, so how did we get to where <span class="mt-enclosure mt-enclosure-image" style="display: inline;"><a href="http://blogs.loveandnature.co.za/www/perl/php.jpg">PHP</a></span> is the default, first choice language for this?&nbsp; <br /><br />Ugh.<br /><br />]]></description>
+            <link>http://blogs.loveandnature.co.za/www/perl/2009/05/netazure-and-dbdazure-anyone.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/perl/2009/05/netazure-and-dbdazure-anyone.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">perl azure rest xml microsoft mod_perl fastcgi php ironman</category>
+            
+            <pubDate>Thu, 14 May 2009 23:05:54 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>On KiokuDB</title>
+            <description><![CDATA[So as part of this 'Modern Perl' push, I was looking at <a href="http://www.iinteractive.com/kiokudb/">KiokuDB</a> for persistence.&nbsp; <br /><br />I went through the KiokuDB::Tutorial and kept wondering why the <a href="http://dbi.perl.org/">DBI</a> backend did it the way it did: Objects encoded into <a href="http://www.jspon.org/?mode=html">JSPON</a> blobs, stored in a single field in an 'entries' table, with "indexing" in a separate table.&nbsp; <br /><br />I could understand that that probably works well for the BerkeleyDB backend, but putting relational data into a single, essentially unindexable (doing a JOIN from another table with 'index' data doesn't count) blob field is something you really shouldn't be doing in an RDBMS.&nbsp; Basically it moves data validation and management out of the database where it belongs and into the application (A very Rails-ish way of doing things, and that is a bad thing), and making reporting or other analysis of the data impossible without the additional overhead of a Javascript/JSON library.<br /><br />So while reading I thought of several alternatives that I would have used instead, mostly PostgreSQL-specific (since that is where I live):<br /><br /><ul><li>Using PL/Perl and JSON::Any to create a set of functions for inspecting the JSPON data, which could then provide real indexing with PostgreSQL's functional indexes and make reporting possible without too much overhead on the client;</li><li>Storing the data in XML in an XML field and using PostgreSQL's XML/XPath functions for indexing/reporting on the data;</li><li>Creating a custom type for each persisted class and creating a separate table for each class containing an ID field and a field of that specific type;</li></ul>Upon thinking of the last one on the list, I realised that since CREATE TABLE actually creates a custom type in PostgeSQL, skipping the whole custom type dance, and just creating a database table for each persisted class would work and be the ideal solution.&nbsp; Have a mapping between Moose types and SQL types, create references with foreign keys, provide real indexes on single and multivalued types and enable easy integration with other tools for data reporting and analysis.<br /><br />Sadly, I doubt that Kioku's DBI backend will change at this stage, so I will probably have to write it myself, and will probably remain PostgreSQL-specific for a while.&nbsp; That is, if I find myself with the need for KiokuDB-level persistence (I usually go from database to code, not the other way round).<br /><br /><br /><br />]]></description>
+            <link>http://blogs.loveandnature.co.za/www/perl/2009/05/on-kiokudb.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/perl/2009/05/on-kiokudb.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">moose perl ironman kiokudb postgresql</category>
+            
+            <pubDate>Thu, 07 May 2009 13:05:40 -0800</pubDate>
+        </item>
+        
+        <item>
+            <title>Welcome</title>
+            <description><![CDATA[Welcome to my new 'blog.&nbsp; Read the description for what it is about, Basically I was inspired to create this because of the <a href="http://www.enlightenedperl.org/ironman.html">Perl Iron Man</a> 'competition', so this will mostly, but not exclusively, be about Perl.&nbsp; Here are a couple of lists:<br /><br />Perl stuff I like:<br /><ul><li><a href="http://moose.perl.org/">Moose</a></li><li><a href="http://search.cpan.org/dist/AnyEvent/">AnyEvent</a></li><li><a href="http://search.cpan.org/%7Emlehmann/Coro/">Coro</a></li><li><a href="http://dbi.perl.org/">DBI </a>(and DBIx::Class)<br /></li><li><a href="http://www.catalystframework.org/">Catalyst</a><br /></li><li><a href="http://perl.apache.org/">mod_perl</a><br /></li><li><a href="http://gtk2-perl.sourceforge.net/">Gtk2</a></li><li><a href="http://pdl.perl.org/">PDL</a></li></ul>Honourable mention has to go to <a href="http://www.ivarch.com/programs/termvt102.shtml">Term::VT102</a> which makes me want to go and write Gtk2 + Goo::Canvas frontends for everything in /usr/games<br /><br />Perl stuff I am ambivalent/generally positive about:<br /><ul><li><a href="http://moose.perl.org/">Moose</a>; Moose has apparently been production ready since 0.65 but perhaps they should have waited for 1.0 for the deprecations and new features and incompatibilities to be worked out (I am not a fan of <i>release early, release often</i>)<br /></li><li>MooseX; some of MooseX radically changes Perl syntax (MooseX::Declare, I'm looking at you), for little real benefit <br /></li><li><a href="http://dev.perl.org/perl6/">Perl6</a>; it seems to have gone too far to not be Perl 5 ('twigils'? and the string concatenation operator is <i>what</i>?), though I do like Parrot<br /></li></ul>Perl stuff I actively dislike or hate:<br /><ul><li><a href="http://poe.perl.org/">POE</a>; oh POE, initially you appeared so beautiful and so full of promise, but it turns out you were rotten and twisted inside and I had to leave you</li><li><a href="http://wxperl.sourceforge.net/">wxPerl</a> (and its parent, wxWidgets); I don't understand the attraction of this (Padre, I'm looking at you), Tk and Gtk2 can both run cross platform (even on Windows) and have better event loops that <i>even</i> support file handle events</li><li>META.yml; Y<i>uck</i>AML</li></ul><br /><br /><br /><br /><br /><br /> ]]></description>
+            <link>http://blogs.loveandnature.co.za/www/perl/2009/04/welcome.html</link>
+            <guid>http://blogs.loveandnature.co.za/www/perl/2009/04/welcome.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">perl moose moosex perl6 anyevent coro dbi dbic poe wxperl gtk2 mod_perl pdl</category>
+            
+            <pubDate>Tue, 28 Apr 2009 03:18:41 -0800</pubDate>
+        </item>
+        
+    </channel>
+</rss>
