@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/126">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/126</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2004-02-29T16:19:01</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry146" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry145" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry144" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry143" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry142" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry141" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry140" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry139" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry138" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry137" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry136" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry135" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry134" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry133" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry132" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry131" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry130" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry129" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry128" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry127" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/126#entry126" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry146">
+<title>Entry 146 [cHiLLi]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry146</link>
+<description>The better we know people, the more likely we are to find fault with them!!!
+so.. just have fun! :)</description>
+<dc:creator>cHiLLi</dc:creator>
+<dc:date>2004-02-29T16:19:01</dc:date>
+<dc:subject>Entry 146 [cHiLLi]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry145">
+<title>Entry 145 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry145</link>
+<description>hay, joolee&#x27;s machine has the guest book open so I might as well make use of it :)))))))</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2004-02-29T09:16:47</dc:date>
+<dc:subject>Entry 145 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry144">
+<title>Entry 144 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry144</link>
+<description>http://www (dot) tourniquet (dot) net</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2004-02-26T14:11:40</dc:date>
+<dc:subject>Entry 144 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry143">
+<title>Entry 143 [JaCKaL]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry143</link>
+<description>hi everbody...:=)</description>
+<dc:creator>JaCKaL</dc:creator>
+<dc:date>2004-02-25T20:21:23</dc:date>
+<dc:subject>Entry 143 [JaCKaL]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry142">
+<title>Entry 142 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry142</link>
+<description>hay look, I did the post thing on the internet loveandnature site thingy ... wooo hooo nee hee haa haa whooooo wahahahahha ewhhehehehe
+ooga ? sanity ? what is sanity ?
+my alter ego wants to know if you can eat it :)
+
+hay lithia, sexy bean :)
+
+cya all
+CrackP0t</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2004-02-24T07:26:42</dc:date>
+<dc:subject>Entry 142 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry141">
+<title>Entry 141 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry141</link>
+<description>... and I sincerely hope you did something about jackal&#x27;s situation</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2004-02-13T11:47:19</dc:date>
+<dc:subject>Entry 141 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry140">
+<title>Entry 140 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry140</link>
+<description>*Yes* ... I agree ...</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2004-02-13T11:46:21</dc:date>
+<dc:subject>Entry 140 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry139">
+<title>Entry 139 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry139</link>
+<description>Chris .... while you still have your sanity ... RUN !!! You don&#x27;t wish to know!!
+
+For some of us ... umm ... oops .. they&#x27;re coming for me!!!!!! .....aaargh
+
+kind regards
+John Smith (down (at) thepub (dot) co (dot) za)</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2004-02-06T09:56:03</dc:date>
+<dc:subject>Entry 139 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry138">
+<title>Entry 138 [chris]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry138</link>
+<description>Hey, i stumbled across this website. what exactly is it? who runs it? where do you amazing people come from?
+kisses from california</description>
+<dc:creator>chris</dc:creator>
+<dc:date>2004-02-06T00:18:32</dc:date>
+<dc:subject>Entry 138 [chris]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry137">
+<title>Entry 137 [JaCKaL]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry137</link>
+<description>&#xFD; m still pakill from knightnet....when will admins open my ban...:=))</description>
+<dc:creator>JaCKaL</dc:creator>
+<dc:date>2004-01-31T12:28:10</dc:date>
+<dc:subject>Entry 137 [JaCKaL]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry136">
+<title>Entry 136 [cHiLLi]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry136</link>
+<description>greetings fellow luv&#x26;naturans !! weldone Joolee, Mothman,Kridian and all the other @sts you all doing a great job !!! if you guys keep running the show.. me thinks love&#x26;nature will always be no 1 :) later cHiLLi</description>
+<dc:creator>cHiLLi</dc:creator>
+<dc:date>2004-01-30T17:38:41</dc:date>
+<dc:subject>Entry 136 [cHiLLi]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry135">
+<title>Entry 135 [Joolee]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry135</link>
+<description>Welcome Back, Jackal!!!!! Good to see yer home safe! :)</description>
+<dc:creator>Joolee</dc:creator>
+<dc:date>2004-01-27T22:32:23</dc:date>
+<dc:subject>Entry 135 [Joolee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry134">
+<title>Entry 134 [JaCKaL]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry134</link>
+<description>&#xFD; m back ...:=))</description>
+<dc:creator>JaCKaL</dc:creator>
+<dc:date>2004-01-25T18:05:53</dc:date>
+<dc:subject>Entry 134 [JaCKaL]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry133">
+<title>Entry 133 [somebody]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry133</link>
+<description>Paulie; join teh irc and send teh pictures to teh kridian or teh k.
+
+or mail them to webmaster (at) loveandnature (dot) co (dot) za</description>
+<dc:creator>somebody</dc:creator>
+<dc:date>2004-01-23T20:13:07</dc:date>
+<dc:subject>Entry 133 [somebody]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry132">
+<title>Entry 132 [French Cheff]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry132</link>
+<description>ze joining iz not what youz should be afraid of</description>
+<dc:creator>French Cheff</dc:creator>
+<dc:date>2004-01-19T04:48:10</dc:date>
+<dc:subject>Entry 132 [French Cheff]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry131">
+<title>Entry 131 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry131</link>
+<description>blah
+
+*disappears into the gloom*</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2004-01-17T15:35:13</dc:date>
+<dc:subject>Entry 131 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry130">
+<title>Entry 130 [Paulie]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry130</link>
+<description>How do i join and send my pic in??????????????</description>
+<dc:creator>Paulie</dc:creator>
+<dc:date>2004-01-17T08:17:18</dc:date>
+<dc:subject>Entry 130 [Paulie]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry129">
+<title>Entry 129 [Seren]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry129</link>
+<description>I like the &#x27;mhm&#x27;. :)</description>
+<dc:creator>Seren</dc:creator>
+<dc:date>2004-01-13T20:42:25</dc:date>
+<dc:subject>Entry 129 [Seren]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry128">
+<title>Entry 128 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry128</link>
+<description>lmao thrash version would definitely be something to look forward to
+*looks forward to it*
+yay!</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2004-01-09T18:41:16</dc:date>
+<dc:subject>Entry 128 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry127">
+<title>Entry 127 [quearwig]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry127</link>
+<description>nice work on the new site. forgot my goddamn log in. everybody has gone to bed. am working on a thrash version of the l&#x26;n theme song. its a hobby.</description>
+<dc:creator>quearwig</dc:creator>
+<dc:date>2004-01-03T23:47:51</dc:date>
+<dc:subject>Entry 127 [quearwig]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/126#entry126">
+<title>Entry 126 [French Cheff]</title>
+<link>http://www.loveandnature.co.za/book/show/126#entry126</link>
+<description>These ball i do not know what she is,she be merry to much.</description>
+<dc:creator>French Cheff</dc:creator>
+<dc:date>2004-01-03T22:53:16</dc:date>
+<dc:subject>Entry 126 [French Cheff]</dc:subject>
+</item>
+</rdf:RDF>

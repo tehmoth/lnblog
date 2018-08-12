@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/189">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/189</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2005-07-28T19:57:35</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry209" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry208" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry207" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry206" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry205" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry204" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry203" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry202" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry201" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry200" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry199" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry198" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry197" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry196" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry195" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry194" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry193" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry192" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry191" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry190" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/189#entry189" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry209">
+<title>Entry 209 [soldier]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry209</link>
+<description>where the hell is seren????????</description>
+<dc:creator>soldier</dc:creator>
+<dc:date>2005-07-28T19:57:35</dc:date>
+<dc:subject>Entry 209 [soldier]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry208">
+<title>Entry 208 [soldier]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry208</link>
+<description>hey guys whats happening remember me???
+back on line and keen to get hold of gwen you are so hot women!!!!!
+nice to see all the faces again.
+oh and chilli reign and arachnid all say hi!!!</description>
+<dc:creator>soldier</dc:creator>
+<dc:date>2005-07-28T19:52:12</dc:date>
+<dc:subject>Entry 208 [soldier]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry207">
+<title>Entry 207 [Napoleon Dynamite]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry207</link>
+<description>Nick Gwen`Away!Guinevere (at) 146 (dot) 115 (dot) 102 (dot) 197
+Name Guinevere
+Channel #love_and_nature 
+Server irc (dot) disorient (dot) net (I am the OW in the word NOW.)
+Idle 20h 22m
+Signed on at Sun Jul 10 22:22:39 2005</description>
+<dc:creator>Napoleon Dynamite</dc:creator>
+<dc:date>2005-07-12T01:52:05</dc:date>
+<dc:subject>Entry 207 [Napoleon Dynamite]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry206">
+<title>Entry 206 [Guinevere]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry206</link>
+<description>I DEMAND THAT EVERYBODY RETURN TO #LOVE_AND_nATURE AT IRC (dot) HASHMARK (dot) NET - Or I&#x27;ll fucking pound your head in, shoot your eyes out, then order Napoleon Dynamite to skullfuck you. MOVE!^#%!*C</description>
+<dc:creator>Guinevere</dc:creator>
+<dc:date>2005-07-10T03:33:45</dc:date>
+<dc:subject>Entry 206 [Guinevere]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry205">
+<title>Entry 205 [lao tzu]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry205</link>
+<description>spammers find a form,
+form rejects their crappy site,
+cherry blossoms fall.</description>
+<dc:creator>lao tzu</dc:creator>
+<dc:date>2005-07-09T21:25:50</dc:date>
+<dc:subject>Entry 205 [lao tzu]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry204">
+<title>Entry 204 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry204</link>
+<description>Life is full of perril .... I hate life</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2005-06-23T06:40:15</dc:date>
+<dc:subject>Entry 204 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry203">
+<title>Entry 203 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry203</link>
+<description>not much; life goes on.</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2005-05-15T00:17:51</dc:date>
+<dc:subject>Entry 203 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry202">
+<title>Entry 202 [oxygen]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry202</link>
+<description>So ummmmm whats going on?</description>
+<dc:creator>oxygen</dc:creator>
+<dc:date>2005-05-12T10:52:39</dc:date>
+<dc:subject>Entry 202 [oxygen]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry201">
+<title>Entry 201 [oxygen]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry201</link>
+<description>Hey guys looooong time no see!!!
+
+So this is where u all been hiding out. Me same old same old. Still drinking and getting into all kinds of trouble.
+
+Think I&#x27;ll go for a beer right now actually.
+
+Catch ya on tha flip side peeps.</description>
+<dc:creator>oxygen</dc:creator>
+<dc:date>2005-05-12T10:44:59</dc:date>
+<dc:subject>Entry 201 [oxygen]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry200">
+<title>Entry 200 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry200</link>
+<description>ouch..
+
+i didn&#x27;t say that the change was bad; it isn&#x27;t. it does look fine.
+i was just surprised to see that it still works..</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2005-05-11T19:47:57</dc:date>
+<dc:subject>Entry 200 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry199">
+<title>Entry 199 [Joolee]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry199</link>
+<description>There is nothing wrong with the guestbook...if it was fucked up &#x22;long ago....very&#x22; it&#x27;s because we had an ignorant webmaster. Now that we have intelligent people running our website, there is nothing wrong with it. If you have a problem with it, fuck off. ps. we won&#x27;t be changing anything.</description>
+<dc:creator>Joolee</dc:creator>
+<dc:date>2005-05-10T06:47:53</dc:date>
+<dc:subject>Entry 199 [Joolee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry198">
+<title>Entry 198 [Our Guestbook]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry198</link>
+<description>Our guest book looks fine, nothing wrong with it ...erm, unless you not happy with the colour scheme .. we can change that if you have sugestions</description>
+<dc:creator>Our Guestbook</dc:creator>
+<dc:date>2005-05-10T05:23:59</dc:date>
+<dc:subject>Entry 198 [Our Guestbook]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry197">
+<title>Entry 197 [r00t]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry197</link>
+<description>could you elaborate more perhaps kridian, beyond &#x22;it looks bad in the outdated and standards-ignorant browser i use&#x22; ?</description>
+<dc:creator>r00t</dc:creator>
+<dc:date>2005-05-10T00:55:52</dc:date>
+<dc:subject>Entry 197 [r00t]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry196">
+<title>Entry 196 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry196</link>
+<description>who fucked up the guestbook?
+
+it was pretty fucked up in the first place.. but that was long ago.. very..</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2005-05-09T18:26:50</dc:date>
+<dc:subject>Entry 196 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry195">
+<title>Entry 195 [IceY]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry195</link>
+<description>PIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE mmmm yummy yummy yum. like bubbleygum, but not like it. ya know. its nice like bubblegum. but completely diff. PIE RULES yip yip YUM</description>
+<dc:creator>IceY</dc:creator>
+<dc:date>2005-05-04T18:48:19</dc:date>
+<dc:subject>Entry 195 [IceY]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry194">
+<title>Entry 194 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry194</link>
+<description>I am a CSS N00000BYYYYYYY</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2005-04-29T13:01:38</dc:date>
+<dc:subject>Entry 194 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry193">
+<title>Entry 193 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry193</link>
+<description>*looking for llama spear gun* gonna catch me a big one today :D</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2005-04-23T11:57:21</dc:date>
+<dc:subject>Entry 193 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry192">
+<title>Entry 192 [r00t]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry192</link>
+<description>hello mr knight, hows life in the land where no bad deed goes unrewarded?</description>
+<dc:creator>r00t</dc:creator>
+<dc:date>2005-04-22T23:36:56</dc:date>
+<dc:subject>Entry 192 [r00t]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry191">
+<title>Entry 191 [gizoogle is funny]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry191</link>
+<description>Love And Nature
+website fo` an irc chatroom on irc (dot) hashmark (dot) net filled wit crazy thugz wit no moral centre . Slap your mutha fuckin self. come jizzle us, we promise not ta makes fun of you.
+
+I want to jizzle all of you!!!!</description>
+<dc:creator>gizoogle is funny</dc:creator>
+<dc:date>2005-04-20T23:34:22</dc:date>
+<dc:subject>Entry 191 [gizoogle is funny]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry190">
+<title>Entry 190 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry190</link>
+<description>I do reply, your schools mail server is rejecting all my mails :(</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2005-04-18T18:52:15</dc:date>
+<dc:subject>Entry 190 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/189#entry189">
+<title>Entry 189 [Zanie]</title>
+<link>http://www.loveandnature.co.za/book/show/189#entry189</link>
+<description>dont understand a thing that&#x27;s going on here and dusty never replies!!!!!!!</description>
+<dc:creator>Zanie</dc:creator>
+<dc:date>2005-04-18T16:08:02</dc:date>
+<dc:subject>Entry 189 [Zanie]</dc:subject>
+</item>
+</rdf:RDF>

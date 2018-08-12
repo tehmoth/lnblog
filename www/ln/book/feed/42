@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/42">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/42</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2003-11-13T06:42:56</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry62" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry61" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry60" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry59" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry58" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry57" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry56" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry55" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry54" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry53" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry52" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry51" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry50" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry49" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry48" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry47" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry46" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry45" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry44" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry43" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/42#entry42" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry62">
+<title>Entry 62 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry62</link>
+<description>bah ...</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-11-13T06:42:56</dc:date>
+<dc:subject>Entry 62 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry61">
+<title>Entry 61 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry61</link>
+<description>**Urgh**</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-11-13T06:42:33</dc:date>
+<dc:subject>Entry 61 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry60">
+<title>Entry 60 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry60</link>
+<description>WF the infamous...
+......as always...well put...oh brilliant one!
+
+*froggy hugs*</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-12T13:25:37</dc:date>
+<dc:subject>Entry 60 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry59">
+<title>Entry 59 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry59</link>
+<description>&#x22;Kween Lithia&#x22; ... actually a very strange nickname ..*ponder* ...almost like one of those heroines from a sci-fi (straight to Video) B-movie: &#x22;Invasion of the golden tomato-shaped Venusians&#x22;</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-11T13:43:14</dc:date>
+<dc:subject>Entry 59 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry58">
+<title>Entry 58 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry58</link>
+<description>BF .... we rule by default ... it goes without saying !!! *fwoggyhuggles*</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-11T12:40:50</dc:date>
+<dc:subject>Entry 58 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry57">
+<title>Entry 57 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry57</link>
+<description>Whats the deal with the Kween Lithia?</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-11T11:17:00</dc:date>
+<dc:subject>Entry 57 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry56">
+<title>Entry 56 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry56</link>
+<description>urgh</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-11-11T11:15:55</dc:date>
+<dc:subject>Entry 56 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry55">
+<title>Entry 55 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry55</link>
+<description>the frogs rule!!
+
+*croak*</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-11T07:11:33</dc:date>
+<dc:subject>Entry 55 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry54">
+<title>Entry 54 [Coke Frog]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry54</link>
+<description>He who speaks my name invane shall remain cokes less (nevermind pondless)</description>
+<dc:creator>Coke Frog</dc:creator>
+<dc:date>2003-11-11T04:46:52</dc:date>
+<dc:subject>Entry 54 [Coke Frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry53">
+<title>Entry 53 [Kween Lithia]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry53</link>
+<description>what&#x27;s the deal with the frogs?</description>
+<dc:creator>Kween Lithia</dc:creator>
+<dc:date>2003-11-08T20:58:06</dc:date>
+<dc:subject>Entry 53 [Kween Lithia]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry52">
+<title>Entry 52 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry52</link>
+<description>today is the day that it ended...may it be recorded in this book untill the end of time...
+
+it was lovely, it was amazing at times, it was awesome, it was all that is nice...but it is over...thanks going out to THE ONE...
+
+i&#x27;ll miss you at times...</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-07T15:02:38</dc:date>
+<dc:subject>Entry 52 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry51">
+<title>Entry 51 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry51</link>
+<description>sincere apologies oh darker counterpart within the pond .. I did receive your mail ..</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-07T08:05:40</dc:date>
+<dc:subject>Entry 51 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry50">
+<title>Entry 50 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry50</link>
+<description>good grief ..... 
+this &#x22;guestbook&#x22; is becoming ominously reminiscent of a very delayed IRC chat ...
+*ponder*
+BF hunnie ... &#x22;ignorance&#x22; ... nope .... the epitome of female &#x22;desperation&#x22; perhaps
+(plz .. no offence to be taken :P)
+I sincerely recommend you send me mail (I have a severe case of electronic-info-withdrawal-symptoms today) ... I can then offer more validated help regarding the whole &#x22;keepin a man happy thing&#x22; that isn&#x27;t appropriate withine thse not so hallowed-halls&#x22; ... timmeh &#x26; moth are such leeches ... we can&#x27;t have them living vicariously off these lil snippets of wisdom .. now can we? *smiles innocently*</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-07T08:02:59</dc:date>
+<dc:subject>Entry 50 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry49">
+<title>Entry 49 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry49</link>
+<description>aEAEHaeHaeEHAAEHaeHaeHaeHAEAEHaeHaeHAE!!!</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-11-07T07:52:23</dc:date>
+<dc:subject>Entry 49 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry48">
+<title>Entry 48 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry48</link>
+<description>*bubble bubble from the gloomy pond...*
+
+this is a call to THE one...whom i know is out there...reading this now...please respond to me...i, thy humble servant...your eternal slave, oh great one...
+
+(oh boy...don&#x92;t i sound like the epitome of female ignorance?)</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-07T07:10:55</dc:date>
+<dc:subject>Entry 48 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry47">
+<title>Entry 47 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry47</link>
+<description>oh the shame and humiliation!
+
+*sinks deeper into the pool of artificial love...*
+
+ps. timmeh...all&#x27;s well that ends well...</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-07T07:05:46</dc:date>
+<dc:subject>Entry 47 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry46">
+<title>Entry 46 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry46</link>
+<description>And i&#x27;m the one needing help....</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-11-06T17:19:06</dc:date>
+<dc:subject>Entry 46 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry45">
+<title>Entry 45 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry45</link>
+<description>*gets a fishing-rod*</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-06T14:22:39</dc:date>
+<dc:subject>Entry 45 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry44">
+<title>Entry 44 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry44</link>
+<description>i humbly beg forgiveness...not to you WF but to the presumed ONE...my radar failed me as well...totally and utterly...!
+
+*jumps in the dark murky pond of total desolation*
+
+...never to be seen again...?</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-06T14:00:13</dc:date>
+<dc:subject>Entry 44 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry43">
+<title>Entry 43 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry43</link>
+<description>THE one .... *snigger* .... nope ...BUT.... There is a movie trilogy featuring martial arts and stuff .. and ...people used as duracell batteries ... and .. nevermind.
+
+Moving on ....QUOTE: &#x22;the BF seems to be at a lost as to what a man wants...and how to keep the man happy...&#x22; Would it be safe to assume that the BF is .. a ... &#x22;GASP&#x22; female -person .....!!!!!! *wow* ..... seems the F/male-detector-proximity-radar failed me ..... I humbly beg forgiveness .... 
+Romantic advice .... mmm ...=heavy stuff that == shall we enter into hypothetical discourse within these confines or take it to the web-based e-mail domain ???
+
+frootloop (at) webmail (dot) co (dot) za (==Watches as truckloads of spam arrives==&#x22;Oh yes I DO need a new automated alien-signalling device in my backyard&#x22; )</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-06T13:39:05</dc:date>
+<dc:subject>Entry 43 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/42#entry42">
+<title>Entry 42 [black @ frog]</title>
+<link>http://www.loveandnature.co.za/book/show/42#entry42</link>
+<description>ps. BF really likes &#x22;Asparagus_KlutchPlate&#x22; (has a ring to it!) but what about...and now i&#x27;m taking a wild shot in the dark...&#xAE;? 
+
+(there&#x27;s only one person me knows with an english vocabulary like yours...oh illuminant one...are u THE one?)</description>
+<dc:creator>black @ frog</dc:creator>
+<dc:date>2003-11-06T09:32:59</dc:date>
+<dc:subject>Entry 42 [black @ frog]</dc:subject>
+</item>
+</rdf:RDF>

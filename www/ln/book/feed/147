@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/147">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/147</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2004-12-24T19:16:14</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry167" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry166" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry165" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry164" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry163" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry162" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry161" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry160" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry159" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry158" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry157" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry156" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry155" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry154" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry153" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry152" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry151" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry150" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry149" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry148" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/147#entry147" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry167">
+<title>Entry 167 [Dusties therapist]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry167</link>
+<description>sorry about dusty down there, we sould never have let him too far from the home.. *calls dusty..*</description>
+<dc:creator>Dusties therapist</dc:creator>
+<dc:date>2004-12-24T19:16:14</dc:date>
+<dc:subject>Entry 167 [Dusties therapist]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry166">
+<title>Entry 166 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry166</link>
+<description>this is just a short post to say .. WOWOOOGGLLLALAA WOWOWWOOOO GGGGG LLLL AAAA WOOGLE WOOOOOGGGGGLLELEEEEEEE WOOOOOO WOOOSY WOOO WOOSY WWWOSY? WOOOOWOOOOOSSSSY YYY YY Y YWEEEEE WWWWHEEEEEEEEEE ..
+thankyou and goodnight</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2004-12-18T08:35:30</dc:date>
+<dc:subject>Entry 166 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry165">
+<title>Entry 165 [r00t]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry165</link>
+<description>to: LAKE
+ok so now i&#x27;ve changed my ufs partition to ntfs, what&#x27;s next?</description>
+<dc:creator>r00t</dc:creator>
+<dc:date>2004-11-25T03:39:48</dc:date>
+<dc:subject>Entry 165 [r00t]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry164">
+<title>Entry 164 [LAKE]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry164</link>
+<description>OK,THE RUNNING IS..
+C:/++
+c:/documents and settings-(your name)&#x3E; convert c:/fs:ntfs
+-digit name(code) of disc-
+(the code of disc(digit-[Documents and setting- (your name)&#x3E;dir
+c:/documents and settings(your name)&#x3E;y
+C:/documents and settings (your name)&#x3E;y</description>
+<dc:creator>LAKE</dc:creator>
+<dc:date>2004-11-08T19:17:44</dc:date>
+<dc:subject>Entry 164 [LAKE]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry163">
+<title>Entry 163 [crumble_bunny]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry163</link>
+<description>hi hi hi hi hi you all still have issues including Guinevere if she remembers me LMAOGCB= lauching my ass off getting carpet burns but guinevere will alway be my favorite chick with issues :-) bye bye honey</description>
+<dc:creator>crumble_bunny</dc:creator>
+<dc:date>2004-10-19T10:35:09</dc:date>
+<dc:subject>Entry 163 [crumble_bunny]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry162">
+<title>Entry 162 [kelek]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry162</link>
+<description>Hello everyone on L &#x26; N it is I kelek from long agao i hope ya all still remember me if not thats ok but i&#x27;m still alive and kickin love to hear from some of rhe oldies like joolee and mothman so email me and say hi.... demondweller (at) yahoo (dot) com later Kelek aka tetsuro aka Brian peace all</description>
+<dc:creator>kelek</dc:creator>
+<dc:date>2004-10-19T05:05:09</dc:date>
+<dc:subject>Entry 162 [kelek]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry161">
+<title>Entry 161 [the angel barer]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry161</link>
+<description>GUESS WHUS BACK!yeah u guesssed it....its black_girl/angel_eyes (dot) hate me or date me.</description>
+<dc:creator>the angel barer</dc:creator>
+<dc:date>2004-10-02T15:44:41</dc:date>
+<dc:subject>Entry 161 [the angel barer]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry160">
+<title>Entry 160 [taboolee]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry160</link>
+<description>coke; pepsi; would u rather drink oil? muddy bottom frog water is better, me thinx. hoes needing a bone - interesting.......very ntrstng. couldn,t find ye site though - must be taboo - too bad, too bad. that forbidden shelter beckons; my synapses starting to work already my appendages &#x27;ll be busy tonight, me thinx. much more thinkng, no dreaming, no, fantasies, yes........fantasies - much more, much more.......tab, sleep</description>
+<dc:creator>taboolee</dc:creator>
+<dc:date>2004-08-30T03:29:56</dc:date>
+<dc:subject>Entry 160 [taboolee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry159">
+<title>Entry 159 [Kate da Great]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry159</link>
+<description>Hey, Nice Site, but I must say, the guy in this picture http://www (dot) loveandnature (dot) co (dot) za/pictures/dalamar (dot) jpg is absolutely gorgeous. Just thought you&#x27;d all like to know. Woo! If he reads this ever and wants to chat, my name is Kate, and my AIM is RaquhelnSeaElf.</description>
+<dc:creator>Kate da Great</dc:creator>
+<dc:date>2004-07-17T00:24:49</dc:date>
+<dc:subject>Entry 159 [Kate da Great]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry158">
+<title>Entry 158 [[cs]soldier]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry158</link>
+<description>heya guys long time no hear!!!! hope youre all well
+just come back from chicago will be seein ya all soon!!
+see ya
+l8tr!!!!
+:)</description>
+<dc:creator>[cs]soldier</dc:creator>
+<dc:date>2004-06-27T13:45:49</dc:date>
+<dc:subject>Entry 158 [[cs]soldier]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry157">
+<title>Entry 157 [KayleeQ]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry157</link>
+<description>JooooLeeeLeeeLeee, I got a tat!!!!</description>
+<dc:creator>KayleeQ</dc:creator>
+<dc:date>2004-05-31T03:22:32</dc:date>
+<dc:subject>Entry 157 [KayleeQ]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry156">
+<title>Entry 156 [Joolee]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry156</link>
+<description>wooooohoooooooooooo Vegas and mothman make the perfect combination!!! So yeah, in case you don&#x27;t already know....mothman is now happily ever after living in Las Vegas with me!!!!</description>
+<dc:creator>Joolee</dc:creator>
+<dc:date>2004-05-12T02:38:07</dc:date>
+<dc:subject>Entry 156 [Joolee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry155">
+<title>Entry 155 [A person]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry155</link>
+<description>Uh hi</description>
+<dc:creator>A person</dc:creator>
+<dc:date>2004-05-10T16:52:13</dc:date>
+<dc:subject>Entry 155 [A person]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry154">
+<title>Entry 154 [tmbm]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry154</link>
+<description>Sup everyone...errrr.....anyone want any smack?</description>
+<dc:creator>tmbm</dc:creator>
+<dc:date>2004-05-02T20:35:56</dc:date>
+<dc:subject>Entry 154 [tmbm]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry153">
+<title>Entry 153 [French Cheff]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry153</link>
+<description>ze beaver pie is ze very good pie. no?</description>
+<dc:creator>French Cheff</dc:creator>
+<dc:date>2004-03-15T04:55:19</dc:date>
+<dc:subject>Entry 153 [French Cheff]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry152">
+<title>Entry 152 [Joolee]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry152</link>
+<description>beava...email addy: julier (at) bsdhosting (dot) co (dot) za</description>
+<dc:creator>Joolee</dc:creator>
+<dc:date>2004-03-14T22:03:39</dc:date>
+<dc:subject>Entry 152 [Joolee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry151">
+<title>Entry 151 [Kaylee]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry151</link>
+<description>Joooleeee, it is your long...lost....BEAVER!!!!....
+
+And guess what? My beaver....errrr...no...wait....my HAIR is red now too! Woohoooo. The beaver is found! No, not drunk yet...but soon! I will write more then!</description>
+<dc:creator>Kaylee</dc:creator>
+<dc:date>2004-03-14T02:14:40</dc:date>
+<dc:subject>Entry 151 [Kaylee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry150">
+<title>Entry 150 [[cs]soldier]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry150</link>
+<description>what a room keep it going guys you running the best room on the 
+net, oh and just wanted to say those sexy legs.........
+they would be perfect for you reign!!!!!</description>
+<dc:creator>[cs]soldier</dc:creator>
+<dc:date>2004-03-13T20:48:58</dc:date>
+<dc:subject>Entry 150 [[cs]soldier]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry149">
+<title>Entry 149 [Joolee]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry149</link>
+<description>la la la free, free at last!!!!! :)</description>
+<dc:creator>Joolee</dc:creator>
+<dc:date>2004-03-12T20:04:36</dc:date>
+<dc:subject>Entry 149 [Joolee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry148">
+<title>Entry 148 [dahX]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry148</link>
+<description>michelle .... would that be a great &#x22;grate&#x22; such as a grill?
+
+Kind regards
+
+dahX</description>
+<dc:creator>dahX</dc:creator>
+<dc:date>2004-03-10T06:17:02</dc:date>
+<dc:subject>Entry 148 [dahX]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/147#entry147">
+<title>Entry 147 [michelle]</title>
+<link>http://www.loveandnature.co.za/book/show/147#entry147</link>
+<description>halloooooooo hows live hope grate bye</description>
+<dc:creator>michelle</dc:creator>
+<dc:date>2004-03-02T06:23:38</dc:date>
+<dc:subject>Entry 147 [michelle]</dc:subject>
+</item>
+</rdf:RDF>

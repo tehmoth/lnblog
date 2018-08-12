@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/63">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/63</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2003-12-01T12:09:24</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry83" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry82" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry81" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry80" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry79" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry78" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry77" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry76" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry75" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry74" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry73" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry72" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry71" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry70" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry69" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry68" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry67" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry66" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry65" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry64" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/63#entry63" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry83">
+<title>Entry 83 [EDDIE]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry83</link>
+<description>EDDIE WAS HERE AGIN</description>
+<dc:creator>EDDIE</dc:creator>
+<dc:date>2003-12-01T12:09:24</dc:date>
+<dc:subject>Entry 83 [EDDIE]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry82">
+<title>Entry 82 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry82</link>
+<description>french cheff...
+would you like to join the pond? 
+....it&#x27;s nice and murky down here :)</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-28T10:18:54</dc:date>
+<dc:subject>Entry 82 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry81">
+<title>Entry 81 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry81</link>
+<description>and still, we cannot access the other pages of the guestbook ..
+nor can we access the root of the webpage ..
+
+has our baron forsaken us?</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-11-27T18:53:52</dc:date>
+<dc:subject>Entry 81 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry80">
+<title>Entry 80 [French Cheff]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry80</link>
+<description>i love ze frog legs!</description>
+<dc:creator>French Cheff</dc:creator>
+<dc:date>2003-11-27T04:45:47</dc:date>
+<dc:subject>Entry 80 [French Cheff]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry79">
+<title>Entry 79 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry79</link>
+<description>on behalf of all the frogs in the pond, me asks the mothman to PLZ fix the guestbook...it&#x27;s the only thing that keeps the boredom away here in the dark old pond</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-24T14:18:06</dc:date>
+<dc:subject>Entry 79 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry78">
+<title>Entry 78 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry78</link>
+<description>let&#x27;s get mothman to fix the guestbook please
+he won&#x27;t let me, so perhaps he can do it :)
+
+please?</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-11-22T20:14:00</dc:date>
+<dc:subject>Entry 78 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry77">
+<title>Entry 77 [fish[aste]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry77</link>
+<description>blah blah</description>
+<dc:creator>fish[aste</dc:creator>
+<dc:date>2003-11-21T22:09:34</dc:date>
+<dc:subject>Entry 77 [fish[aste]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry76">
+<title>Entry 76 [Kween LithiA]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry76</link>
+<description>right.....</description>
+<dc:creator>Kween LithiA</dc:creator>
+<dc:date>2003-11-21T18:26:20</dc:date>
+<dc:subject>Entry 76 [Kween LithiA]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry75">
+<title>Entry 75 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry75</link>
+<description>croak 2 u all out there in the pond of darkness
+amphibious...able to live on land and water...for any amount of time...if memory serves me correct...
+wf, my illuminant counterpart...me doth think that urgh feels sick...or something...
+
+*bubbling froggy kisses*</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-21T14:33:50</dc:date>
+<dc:subject>Entry 75 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry74">
+<title>Entry 74 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry74</link>
+<description>yes</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-11-21T09:49:08</dc:date>
+<dc:subject>Entry 74 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry73">
+<title>Entry 73 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry73</link>
+<description>amphibious? seems correct .. :)</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-11-21T07:27:50</dc:date>
+<dc:subject>Entry 73 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry72">
+<title>Entry 72 [Kween Lithia]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry72</link>
+<description>But alas, helps not, as thee are amphibious (spelling) creatures of the deep, am I right??</description>
+<dc:creator>Kween Lithia</dc:creator>
+<dc:date>2003-11-15T19:46:39</dc:date>
+<dc:subject>Entry 72 [Kween Lithia]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry71">
+<title>Entry 71 [Kween Lithia]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry71</link>
+<description>And as I know it, *jumps into the pond and pushes the frogs under water for a unknown amount of time*.. oops, sorry... didn&#x27;t mean it</description>
+<dc:creator>Kween Lithia</dc:creator>
+<dc:date>2003-11-15T19:41:48</dc:date>
+<dc:subject>Entry 71 [Kween Lithia]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry70">
+<title>Entry 70 [Kween Lithia]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry70</link>
+<description>There is absolutely no deal with me, I was just &#x22;pondering&#x22;.</description>
+<dc:creator>Kween Lithia</dc:creator>
+<dc:date>2003-11-15T19:29:17</dc:date>
+<dc:subject>Entry 70 [Kween Lithia]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry69">
+<title>Entry 69 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry69</link>
+<description>sup my fellow furry friends
+
+i&#x27;m as currently unable to write stuff into the webpage directory, so guestbook cannot be fixed [even tho its just a single line that needs to be added]. but that&#x27;ll be fixed soon hopefully.
+
+and i hate maths.</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-11-15T17:41:23</dc:date>
+<dc:subject>Entry 69 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry68">
+<title>Entry 68 [Kween Lethargic]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry68</link>
+<description>Aaaaaaaaaaaaaaaaaaaaaaaaaaaargh</description>
+<dc:creator>Kween Lethargic</dc:creator>
+<dc:date>2003-11-14T11:44:40</dc:date>
+<dc:subject>Entry 68 [Kween Lethargic]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry67">
+<title>Entry 67 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry67</link>
+<description>urgh
+ urgh
+ urgh
+
+*BURP*</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-11-14T11:43:50</dc:date>
+<dc:subject>Entry 67 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry66">
+<title>Entry 66 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry66</link>
+<description>*blah* Urgh ... Urgh</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-11-14T09:22:36</dc:date>
+<dc:subject>Entry 66 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry65">
+<title>Entry 65 [cookie]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry65</link>
+<description>I apologise for posting the previous message. I know it was mindless drivel.</description>
+<dc:creator>cookie</dc:creator>
+<dc:date>2003-11-14T07:32:37</dc:date>
+<dc:subject>Entry 65 [cookie]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry64">
+<title>Entry 64 [cookie]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry64</link>
+<description>bla bla</description>
+<dc:creator>cookie</dc:creator>
+<dc:date>2003-11-13T19:56:29</dc:date>
+<dc:subject>Entry 64 [cookie]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/63#entry63">
+<title>Entry 63 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/63#entry63</link>
+<description>Black froggie ... my awesome female counterpart regarding all things insanely-croakable ... what do you think is the &#x22;deal&#x22; with &#x22;urgh&#x22;
+
+froggygreetz</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-13T10:22:36</dc:date>
+<dc:subject>Entry 63 [white frog IV (The Innocent)]</dc:subject>
+</item>
+</rdf:RDF>

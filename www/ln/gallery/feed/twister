@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.loveandnature.co.za/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature.co.za/gallery/show/twister">
+<title>Love And Nature Gallery Comments for twister</title>
+<link>http://www.loveandnature.co.za/gallery/show/twister</link>
+<description>Gallery comments for twister</description>
+<dc:language>en-us</dc:language>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/gallery/show/twister#entry" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/gallery/show/twister#entry">
+<title>Entry ID # []</title>
+<link>http://www.loveandnature.co.za/gallery/show/twister#entry</link>
+<dc:subject>Entry  [] for twister</dc:subject>
+</item>
+</rdf:RDF>

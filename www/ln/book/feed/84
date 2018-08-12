@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/84">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/84</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2003-12-12T19:27:49</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry104" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry103" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry102" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry101" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry100" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry99" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry98" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry97" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry96" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry95" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry94" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry93" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry92" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry91" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry90" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry89" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry88" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry87" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry86" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry85" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/84#entry84" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry104">
+<title>Entry 104 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry104</link>
+<description>i&#x27;ve also noticed now that mozilla doesn&#x27;t play nicely with my pitiful winamp-copy-paste-attempt-CSS-style-type-crap
+
+so must fix - also, main page not showing images; they bit the dust. the font is also too small (at 800x600, even more so at 1024x768).
+
+so ...</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-12-12T19:27:49</dc:date>
+<dc:subject>Entry 104 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry103">
+<title>Entry 103 [French Cheff]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry103</link>
+<description>ze bbq moth legs? no ze frog legs then</description>
+<dc:creator>French Cheff</dc:creator>
+<dc:date>2003-12-12T19:21:08</dc:date>
+<dc:subject>Entry 103 [French Cheff]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry102">
+<title>Entry 102 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry102</link>
+<description>new host, new life ..
+we begin again</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-12-12T19:16:32</dc:date>
+<dc:subject>Entry 102 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry101">
+<title>Entry 101 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry101</link>
+<description>Kridian actually manages very eloquent replies!!!!!!!!!!!!
+
+*gets pitchfork, rallies up the villagers .....* moth-bbq ..... urgh!!</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-12-08T11:25:26</dc:date>
+<dc:subject>Entry 101 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry100">
+<title>Entry 100 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry100</link>
+<description>Kridian for Baron!
+
+(He manages to transcend the single word replies)</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-12-08T11:20:03</dc:date>
+<dc:subject>Entry 100 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry99">
+<title>Entry 99 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry99</link>
+<description>Kridian for Baron!
+
+(He manages to transcend the single letter replies)</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-12-08T11:19:53</dc:date>
+<dc:subject>Entry 99 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry98">
+<title>Entry 98 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry98</link>
+<description>(*SLAPS*) mothman (* moths&#x27; Teeth rattles and NOT due to coke rush*)
+UNACCEPTABLE !!!!
+
+We will not be satisfied with one word .... bah
+bleh
+blerg!
+
+urgh !</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-12-08T09:22:01</dc:date>
+<dc:subject>Entry 98 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry97">
+<title>Entry 97 [mothman]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry97</link>
+<description>slackers.</description>
+<dc:creator>mothman</dc:creator>
+<dc:date>2003-12-07T21:03:35</dc:date>
+<dc:subject>Entry 97 [mothman]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry96">
+<title>Entry 96 [Joolee]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry96</link>
+<description>the mastah is busy with his mistress (me). I will coerce him into leaving all of you some sort of inspiring message. Please stay tuned.</description>
+<dc:creator>Joolee</dc:creator>
+<dc:date>2003-12-06T15:09:20</dc:date>
+<dc:subject>Entry 96 [Joolee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry95">
+<title>Entry 95 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry95</link>
+<description>Urgh moth URGH ... OOga ... Urgh .... Moth ..yeah .. message mastah sir please
+peasants require inspiration from ze mastah ... urgh ...</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-12-05T13:34:16</dc:date>
+<dc:subject>Entry 95 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry94">
+<title>Entry 94 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry94</link>
+<description>We request a message from the Baron. Something nice and inspiring for this special time of year.
+
+Moth Moth Moth Moth!!!!! (Crowd going wild)</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-12-05T06:19:54</dc:date>
+<dc:subject>Entry 94 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry93">
+<title>Entry 93 [French Cheff]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry93</link>
+<description>ze real frog legs she taste good too.</description>
+<dc:creator>French Cheff</dc:creator>
+<dc:date>2003-12-05T04:55:45</dc:date>
+<dc:subject>Entry 93 [French Cheff]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry92">
+<title>Entry 92 [black frog (the real one)]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry92</link>
+<description>this is so sad...
+
+&#x22;they all passed on due to the fatal RealLife (r) syndrome&#x22;
+
+real life is actually a lot of fun...me thinks...</description>
+<dc:creator>black frog (the real one)</dc:creator>
+<dc:date>2003-12-04T11:14:05</dc:date>
+<dc:subject>Entry 92 [black frog (the real one)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry91">
+<title>Entry 91 [gamer]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry91</link>
+<description>http://www (dot) skype (dot) com free voice calls
+http://www (dot) squarecircleco (dot) com/heli2/ nice little game</description>
+<dc:creator>gamer</dc:creator>
+<dc:date>2003-12-04T04:53:16</dc:date>
+<dc:subject>Entry 91 [gamer]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry90">
+<title>Entry 90 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry90</link>
+<description>an update website is better than one which isn&#x27;t.
+so it was updated with news; even if the news had no relevance.
+
+the chatters in the picture gallery stay there so that we may remember them. they all passed on due to the fatal RealLife (r) syndrome. they deserve to be there.</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-12-03T18:24:43</dc:date>
+<dc:subject>Entry 90 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry89">
+<title>Entry 89 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry89</link>
+<description>The following is confusing, it was found under the heading &#x22;NEWS&#x22;
+
+quote:
+&#x22;05 November 2003, Wednesday @ 21h13
+ hier kommt die sonne, sie ist der helste sterren von allen. 
+
+ hier kommt die sonne .. 
+unquote
+
+Why was this particular .. umm .. snippet considered to be &#x22;news&#x22;?
+Please clarify.</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-12-03T10:09:29</dc:date>
+<dc:subject>Entry 89 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry88">
+<title>Entry 88 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry88</link>
+<description>A remark:
+There are tons of pictures of chatters, where are the chatters, because they are not in the channel?
+have they migrated to places without internet connectivity?
+please advise.</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-12-03T10:07:07</dc:date>
+<dc:subject>Entry 88 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry87">
+<title>Entry 87 [French Cheff]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry87</link>
+<description>ze chef she would love to visit ze pond. and alas ze baron she is no more</description>
+<dc:creator>French Cheff</dc:creator>
+<dc:date>2003-12-03T05:02:45</dc:date>
+<dc:subject>Entry 87 [French Cheff]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry86">
+<title>Entry 86 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry86</link>
+<description>Black Frog
+Black Frog
+gngngngnngng 
+
+mfmfmf</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-12-02T13:13:45</dc:date>
+<dc:subject>Entry 86 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry85">
+<title>Entry 85 [Black Frog]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry85</link>
+<description>Urgh
+urgh
+gngngngnngng
+
+mfmfmf</description>
+<dc:creator>Black Frog</dc:creator>
+<dc:date>2003-12-02T13:11:19</dc:date>
+<dc:subject>Entry 85 [Black Frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/84#entry84">
+<title>Entry 84 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/84#entry84</link>
+<description>urghhhhh</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-12-02T13:10:32</dc:date>
+<dc:subject>Entry 84 [Urgh]</dc:subject>
+</item>
+</rdf:RDF>

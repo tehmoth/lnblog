@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/21">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/21</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2003-11-06T09:31:27</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry41" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry40" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry39" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry38" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry37" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry36" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry35" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry34" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry33" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry32" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry31" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry30" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry29" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry28" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry27" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry26" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry25" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry24" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry23" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry22" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/21#entry21" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry41">
+<title>Entry 41 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry41</link>
+<description>...nope white one...luckily no wee nappies as to yet...:)
+
+BF was wondering...since it seems the WFIV is of extraordinary intelligence...do thy have any advise on romantic affairs? the BF seems to be at a lost as to what a man wants...and how to keep the man happy...</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-06T09:31:27</dc:date>
+<dc:subject>Entry 41 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry40">
+<title>Entry 40 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry40</link>
+<description>settled then:
+
+white frog IV (The Innocent) ... will have to stay ... mmmm 
+as for &#x22;interesting offspring&#x22; .... yes offspring are interesting ..... nappy changes in &#x22;wee&#x22; hours of morning ...(PUN intended). You have experience B Frog??</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-06T07:30:27</dc:date>
+<dc:subject>Entry 40 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry39">
+<title>Entry 39 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry39</link>
+<description>mmm ..... &#x22;white frog IV (The Innocent)&#x22; shows elements of plagiarism ...
+
+Thinking of new names ...
+*Asparagus_KlutchPlate
+*illuminant (That one shines with its own energy ... like it)
+*wonderous one .... mmm .. nahhh .. presumptious
+*Pachyderm_LiTe .... that weighs in solidly
+
+....
+
+mmm</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-06T07:28:17</dc:date>
+<dc:subject>Entry 39 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry38">
+<title>Entry 38 [black frog...again :)]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry38</link>
+<description>oh white one...(yes..you the innocent and illuminant)
+
+u do know that because of my coke preference, my brain is yet far smaller than your pea...that is why i say u win...oh wonderous one...
+...for i dont have the foggiest what your on about! 
+
+...and the colour thing...it makes for interesting offspring...:)</description>
+<dc:creator>black frog...again :)</dc:creator>
+<dc:date>2003-11-05T10:05:06</dc:date>
+<dc:subject>Entry 38 [black frog...again :)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry37">
+<title>Entry 37 [black frog (the not so innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry37</link>
+<description>o (dot) k. my white counterpart...u WIN!
+flattery indeed :)
+have a croaky good one!</description>
+<dc:creator>black frog (the not so innocent)</dc:creator>
+<dc:date>2003-11-05T09:48:12</dc:date>
+<dc:subject>Entry 37 [black frog (the not so innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry36">
+<title>Entry 36 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry36</link>
+<description>&#x22;cc&#x22; .... copycat ... mmm ... nope that &#x22;thought&#x22; never crossed the pea-sized brain .... 
+isn&#x27;t imitation the most sincere form of flattery?</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-05T09:35:56</dc:date>
+<dc:subject>Entry 36 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry35">
+<title>Entry 35 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry35</link>
+<description>cc ... would that pertain to &#x22;configuration controlller&#x22;, &#x22;&#x22;corporative coder&#x22; ...
+please explain oh black variant of the toady consortium.
+
+*ponder* ... yes .... umm ... does coke &#x26; pepsi differ in color ... ummm .. erm ..
+anyway ...
+having a preference is commendable ... that means there are thought processes ..when one doesn&#x27;t just accept something ... you look, you &#x22;think&#x22;, you choose.... awesome ...... coke won ... congrats mate ... you have managed to crawl from the mindless mire that categorizes aproximately 97 (dot) 98 % of the human race that just accepts any sensory input
+
+PS ... no offense taken ... defense ... well ...</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-05T06:17:59</dc:date>
+<dc:subject>Entry 35 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry34">
+<title>Entry 34 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry34</link>
+<description>white frog aka cc (don&#x27;t take offense plz!)
+ ...eloquently put!!
+me prefer coke, but that may be the colour of things to come :)
+
+*sigh*
+
+why doth me love thee soo much?</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-04T14:22:29</dc:date>
+<dc:subject>Entry 34 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry33">
+<title>Entry 33 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry33</link>
+<description>A poem for your perusal:
+
+I leap
+I sleep
+warts, open ports
+pepsi cola rules
+
+Hope you all got the deeper meaning behind this insidiously simple work of art</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-04T10:06:55</dc:date>
+<dc:subject>Entry 33 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry32">
+<title>Entry 32 [white frog IV (The Innocent)]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry32</link>
+<description>What is this all about???</description>
+<dc:creator>white frog IV (The Innocent)</dc:creator>
+<dc:date>2003-11-04T10:01:31</dc:date>
+<dc:subject>Entry 32 [white frog IV (The Innocent)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry31">
+<title>Entry 31 [black frog II]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry31</link>
+<description>You owe me nothing for giving the love that I give
+You owe me nothing for caring the way that I have
+I give you thanks for receiving it&#x27;s my privilege
+And you owe me nothing in return</description>
+<dc:creator>black frog II</dc:creator>
+<dc:date>2003-11-03T07:54:35</dc:date>
+<dc:subject>Entry 31 [black frog II]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry30">
+<title>Entry 30 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry30</link>
+<description>I&#x27;ll give you countless amounts of outright acceptance if you want it
+I&#x27;ll give you encouragement to choose the path that you want if you need it
+You can speak of anger and doubts, your fears and freak outs and I&#x27;ll hold it
+You can share your so-called shame filled accounts of times in your life and I won&#x27;t judge it
+(and there are no strings attached to it)</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-11-03T07:52:05</dc:date>
+<dc:subject>Entry 30 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry29">
+<title>Entry 29 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry29</link>
+<description>i noted that the guestbook doesn&#x27;t show previous entries when asking it to. i will fix that.
+
+we also have a chat page hiding here somewhere on the website. i can&#x27;t seem to find it. nor can i add it because i cannot find it.
+
+mothman knows where it is though. i did have a scroll of the address once, but that vanished somewhere in the last few days.</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-11-01T22:05:30</dc:date>
+<dc:subject>Entry 29 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry28">
+<title>Entry 28 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry28</link>
+<description>I only have a problem with kridian thanking me. heh.
+
+Yes it would seem that it&#x27;s just us two here, oh well, what can a person do...
+
+Anyways, i need sleep, so that is what i&#x27;m going to do.
+
+Later all.</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-11-01T12:09:43</dc:date>
+<dc:subject>Entry 28 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry27">
+<title>Entry 27 [Urgh]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry27</link>
+<description>*urgh*</description>
+<dc:creator>Urgh</dc:creator>
+<dc:date>2003-10-31T12:03:00</dc:date>
+<dc:subject>Entry 27 [Urgh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry26">
+<title>Entry 26 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry26</link>
+<description>thAnx timmeh...i im to pleAse
+..it seems it just u and me writing in this book...
+by the wAy...u gotta problem with someone thAnking u?
+black frog = baclk forg = ME!!
+
+ps...remember in future...coke = diureticum</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-10-31T10:59:26</dc:date>
+<dc:subject>Entry 26 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry25">
+<title>Entry 25 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry25</link>
+<description>OK!!! Hold the fuck up!!!
+You are thanking me...? Bleh!!!
+
+Anyways, black frog, as usualy, im truly scared, who are you anyway...?
+
+Right, i go take a piss now...too much coke.</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-10-30T12:07:56</dc:date>
+<dc:subject>Entry 25 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry24">
+<title>Entry 24 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry24</link>
+<description>I&#x27;ve been wanting 
+your undivided attention 
+I like the fact that you&#x27;re nothing like me...</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-10-30T05:57:36</dc:date>
+<dc:subject>Entry 24 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry23">
+<title>Entry 23 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry23</link>
+<description>*croak* to all of you :)
+have a gr8 1!</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-10-29T10:34:55</dc:date>
+<dc:subject>Entry 23 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry22">
+<title>Entry 22 [PoiSoN]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry22</link>
+<description>Hey people. Glad to see the guestbooks back up... I think? Anyway, have fun in the traffic...</description>
+<dc:creator>PoiSoN</dc:creator>
+<dc:date>2003-10-28T13:51:16</dc:date>
+<dc:subject>Entry 22 [PoiSoN]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/21#entry21">
+<title>Entry 21 [Ewok]</title>
+<link>http://www.loveandnature.co.za/book/show/21#entry21</link>
+<description>Black Frog, the only thing furry in Knightnet is me :P Word.
+
+- Ewok</description>
+<dc:creator>Ewok</dc:creator>
+<dc:date>2003-10-27T00:39:30</dc:date>
+<dc:subject>Entry 21 [Ewok]</dc:subject>
+</item>
+</rdf:RDF>

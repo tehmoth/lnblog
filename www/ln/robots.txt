@@ -1,0 +1,5 @@
+# go away
+User-agent: *
+Disallow: /theguestbook.php
+Disallow: /guestbookfeed.php
+Disallow: /ln-bigsamguestbook.php

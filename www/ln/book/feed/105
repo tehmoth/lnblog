@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/105">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/105</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2004-01-01T04:00:50</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry125" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry124" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry123" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry122" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry121" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry120" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry119" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry118" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry117" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry116" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry115" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry114" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry113" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry112" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry111" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry110" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry109" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry108" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry107" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry106" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/105#entry105" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry125">
+<title>Entry 125 [nerfball]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry125</link>
+<description>rhonda lear, who the fuck are you?
+
+its &#x27;form&#x27; not &#x27;from&#x27;.
+
+we&#x27;re very happy GOD is with YOU, even when you
+have your weird sexual fantasy dreams that sound
+like you&#x27;ve been stuck in the 50s all these years.
+
+116 : JaCKaL
+&#xFD; m still pakill from knightnet...if you dont open pakill &#xFD; will gonna shut all admin ...
+
+mr JaCKaL, since you&#x27;ll probably never be un-pakilled, you have my 
+blessings to do what you will with the admins of KnightNet (i presume
+you meant &#x27;shoot&#x27; and not &#x27;shut&#x27; :) ). I have some of their addresses if
+you need them.
+
+black frog, green frog, white frog, here&#x27;s hoping you get eaten by
+French Chef.
+
+French Chef, here&#x27;s hoping you get ptomaine poisoning and die 
+in a paris gutter, encrusted in your own stinking vomit.
+
+
+Happy New Year.</description>
+<dc:creator>nerfball</dc:creator>
+<dc:date>2004-01-01T04:00:50</dc:date>
+<dc:subject>Entry 125 [nerfball]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry124">
+<title>Entry 124 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry124</link>
+<description>you were right .. i didnt know that was the case with JaCKaL ..
+
+sorry</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-12-29T19:08:51</dc:date>
+<dc:subject>Entry 124 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry123">
+<title>Entry 123 [Rhonda Lear]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry123</link>
+<description>ever seen a big black from with size of a human?
+I see this one in dream and day dream at times.
+It tries to scare me...
+
+It to me (being spiritually minded) seems to try to jump out and scare me but it doesn&#x27;t cause GOD is with me and shows me HIS protection field is around me.</description>
+<dc:creator>Rhonda Lear</dc:creator>
+<dc:date>2003-12-29T10:50:39</dc:date>
+<dc:subject>Entry 123 [Rhonda Lear]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry122">
+<title>Entry 122 [Marlon]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry122</link>
+<description>*prod*
+hello? 
+:D</description>
+<dc:creator>Marlon</dc:creator>
+<dc:date>2003-12-29T01:38:29</dc:date>
+<dc:subject>Entry 122 [Marlon]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry121">
+<title>Entry 121 [Joolee]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry121</link>
+<description>Little do any of you know but Jackal is in the Turkish military and stationed in Northern Iraq. A Kadek is another name for a Kurd. Jackal and his troop were on a 9 hour hike when there was a strike which resulted in him killing two people. As for being on the internet, it&#x27;s because he was lucky enough to be given a 2 week holiday from fighting a stupid fucking war.</description>
+<dc:creator>Joolee</dc:creator>
+<dc:date>2003-12-28T11:01:22</dc:date>
+<dc:subject>Entry 121 [Joolee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry120">
+<title>Entry 120 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry120</link>
+<description>not that i know what a kadek is, but it sounds scarey. anyhow, if you&#x27;re out there killing &#x22;stuff&#x22; why do you bother sitting on the internet? or is the &#x22;killing&#x22; just some sick form of mental release from the pressures of an abusing childhood?
+
+don&#x27;t let your anger consume you. talk about it and be free :)</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-12-27T18:37:15</dc:date>
+<dc:subject>Entry 120 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry119">
+<title>Entry 119 [JaCKaL]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry119</link>
+<description>I killed 2 kadek yesterday..</description>
+<dc:creator>JaCKaL</dc:creator>
+<dc:date>2003-12-27T14:10:00</dc:date>
+<dc:subject>Entry 119 [JaCKaL]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry118">
+<title>Entry 118 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry118</link>
+<description>merry christmas</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-12-24T18:35:03</dc:date>
+<dc:subject>Entry 118 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry117">
+<title>Entry 117 [quearwig]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry117</link>
+<description>merry fucking christmas you filthy spankers</description>
+<dc:creator>quearwig</dc:creator>
+<dc:date>2003-12-21T21:49:59</dc:date>
+<dc:subject>Entry 117 [quearwig]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry116">
+<title>Entry 116 [JaCKaL]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry116</link>
+<description>&#xFD; m still pakill from knightnet...if you dont open pakill &#xFD; will gonna shut all admin ...</description>
+<dc:creator>JaCKaL</dc:creator>
+<dc:date>2003-12-21T19:02:27</dc:date>
+<dc:subject>Entry 116 [JaCKaL]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry115">
+<title>Entry 115 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry115</link>
+<description>JaCKal, which one of those are you?</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-12-20T20:13:34</dc:date>
+<dc:subject>Entry 115 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry114">
+<title>Entry 114 [JaCKaL]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry114</link>
+<description>if you wanna see JaCKaL&#x27;s picture in north iraq click here...
+http://gidaci-flower (dot) 8m (dot) com/kep (dot) htm</description>
+<dc:creator>JaCKaL</dc:creator>
+<dc:date>2003-12-17T18:43:55</dc:date>
+<dc:subject>Entry 114 [JaCKaL]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry113">
+<title>Entry 113 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry113</link>
+<description>lo JaCKaL!!
+how&#x27;re you?</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-12-15T21:11:29</dc:date>
+<dc:subject>Entry 113 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry112">
+<title>Entry 112 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry112</link>
+<description>me thinks me should hide from the chef...!
+the chef sounds scarily a lot like a butcher...</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-12-15T15:55:15</dc:date>
+<dc:subject>Entry 112 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry111">
+<title>Entry 111 [French Cheff]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry111</link>
+<description>ze JaCKaL skin she will make a nice cleaning rag for ze floor</description>
+<dc:creator>French Cheff</dc:creator>
+<dc:date>2003-12-13T21:48:29</dc:date>
+<dc:subject>Entry 111 [French Cheff]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry110">
+<title>Entry 110 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry110</link>
+<description>welcome back...
+me wonders where my white friend went...
+
+*croak*
+
+you still around illumant one?</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-12-13T15:43:05</dc:date>
+<dc:subject>Entry 110 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry109">
+<title>Entry 109 [JaCKaL]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry109</link>
+<description>http://www (dot) jackal (dot) 4mg (dot) com
+
+
+Turkish Power ...JaCKaL</description>
+<dc:creator>JaCKaL</dc:creator>
+<dc:date>2003-12-13T15:11:17</dc:date>
+<dc:subject>Entry 109 [JaCKaL]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry108">
+<title>Entry 108 [JaCKaL]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry108</link>
+<description>JaCKaL is back ...turkish power</description>
+<dc:creator>JaCKaL</dc:creator>
+<dc:date>2003-12-13T15:05:08</dc:date>
+<dc:subject>Entry 108 [JaCKaL]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry107">
+<title>Entry 107 [Elessar]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry107</link>
+<description>Yes, everything is looking alive again, good to see it so.
+What can I say?
+
+Not much.
+
+*Shuts Up*</description>
+<dc:creator>Elessar</dc:creator>
+<dc:date>2003-12-12T23:13:41</dc:date>
+<dc:subject>Entry 107 [Elessar]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry106">
+<title>Entry 106 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry106</link>
+<description>yes i know there aren&#x27;t any names with the pictures in the gallery.
+i know .. really .. i know ..</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-12-12T21:35:54</dc:date>
+<dc:subject>Entry 106 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/105#entry105">
+<title>Entry 105 [mothman]</title>
+<link>http://www.loveandnature.co.za/book/show/105#entry105</link>
+<description>Urgh for baron...
+oh wait he/she/it has never been seen there
+
+shut up
+idiot.</description>
+<dc:creator>mothman</dc:creator>
+<dc:date>2003-12-12T19:46:52</dc:date>
+<dc:subject>Entry 105 [mothman]</dc:subject>
+</item>
+</rdf:RDF>

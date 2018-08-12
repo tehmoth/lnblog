@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.loveandnature.co.za/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature.co.za/gallery/show/blowfish">
+<title>Love And Nature Gallery Comments for blowfish</title>
+<link>http://www.loveandnature.co.za/gallery/show/blowfish</link>
+<description>Gallery comments for blowfish</description>
+<dc:language>en-us</dc:language>
+<dc:date>2010-04-10T11:10:14</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/gallery/show/blowfish#entry9" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/gallery/show/blowfish#entry9">
+<title>Entry ID #9 [&#x6587;&#x5B57;&#x5316;&#x3051;]</title>
+<link>http://www.loveandnature.co.za/gallery/show/blowfish#entry9</link>
+<description>Hooray!</description>
+<dc:creator>&#x6587;&#x5B57;&#x5316;&#x3051;</dc:creator>
+<dc:date>2010-04-10T11:10:14</dc:date>
+<dc:subject>Entry 9 [&#x6587;&#x5B57;&#x5316;&#x3051;] for blowfish</dc:subject>
+</item>
+</rdf:RDF>

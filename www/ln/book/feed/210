@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/210">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/210</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2006-02-09T02:08:09</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry230" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry229" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry228" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry227" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry226" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry225" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry224" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry223" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry222" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry221" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry220" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry219" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry218" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry217" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry216" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry215" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry214" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry213" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry212" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry211" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/210#entry210" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry230">
+<title>Entry 230 [hello channel!]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry230</link>
+<description>hellooooooo mozfreeq</description>
+<dc:creator>hello channel!</dc:creator>
+<dc:date>2006-02-09T02:08:09</dc:date>
+<dc:subject>Entry 230 [hello channel!]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry229">
+<title>Entry 229 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry229</link>
+<description>happy new year..</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2006-01-02T01:55:59</dc:date>
+<dc:subject>Entry 229 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry228">
+<title>Entry 228 [eQ]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry228</link>
+<description>Happy New Year, fuckers.</description>
+<dc:creator>eQ</dc:creator>
+<dc:date>2006-01-01T00:53:37</dc:date>
+<dc:subject>Entry 228 [eQ]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry227">
+<title>Entry 227 [root]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry227</link>
+<description>it is really all dusty&#x27;s fault</description>
+<dc:creator>root</dc:creator>
+<dc:date>2005-12-31T08:47:59</dc:date>
+<dc:subject>Entry 227 [root]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry226">
+<title>Entry 226 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry226</link>
+<description>how do we attract such strange people?</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2005-12-28T12:49:36</dc:date>
+<dc:subject>Entry 226 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry225">
+<title>Entry 225 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry225</link>
+<description>hey hey ho ho i am on leave, muaha i love this place :D</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2005-12-22T08:18:44</dc:date>
+<dc:subject>Entry 225 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry224">
+<title>Entry 224 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry224</link>
+<description>oh, and yes, its my birthday today; but that&#x27;s just me..</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2005-12-05T23:39:41</dc:date>
+<dc:subject>Entry 224 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry223">
+<title>Entry 223 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry223</link>
+<description>luckily it uses a decent database, so abuse is easy to handle..</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2005-12-05T23:39:24</dc:date>
+<dc:subject>Entry 223 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry222">
+<title>Entry 222 [TEH ABUSE]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry222</link>
+<description>OF TEHGUESTBOOK!!!</description>
+<dc:creator>TEH ABUSE</dc:creator>
+<dc:date>2005-12-03T18:02:25</dc:date>
+<dc:subject>Entry 222 [TEH ABUSE]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry221">
+<title>Entry 221 [Robt Dimond]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry221</link>
+<description>zbe7c2bc9bb00c629320497c28192ce48z Good work, nice webpaqe.</description>
+<dc:creator>Robt Dimond</dc:creator>
+<dc:date>2005-11-28T02:11:53</dc:date>
+<dc:subject>Entry 221 [Robt Dimond]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry220">
+<title>Entry 220 [hoorah]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry220</link>
+<description>yay!</description>
+<dc:creator>hoorah</dc:creator>
+<dc:date>2005-11-19T03:01:42</dc:date>
+<dc:subject>Entry 220 [hoorah]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry219">
+<title>Entry 219 [r00t]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry219</link>
+<description>oh IceY your so hot if you were a door i&#x27;d slam you all day and i must say nice ass what times it open?</description>
+<dc:creator>r00t</dc:creator>
+<dc:date>2005-09-09T14:16:43</dc:date>
+<dc:subject>Entry 219 [r00t]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry218">
+<title>Entry 218 [IceY]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry218</link>
+<description>kinay poem.</description>
+<dc:creator>IceY</dc:creator>
+<dc:date>2005-09-04T19:50:47</dc:date>
+<dc:subject>Entry 218 [IceY]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry217">
+<title>Entry 217 [untitled poem by me]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry217</link>
+<description>oh my gosh mothman is hot
+the hair of the dog
+the face of a bot
+he really is great
+i don&#x27;t think he skates
+in love with joolee
+they will always be
+if they you will see
+the love it will be
+congrats on your wedding
+good tidings to thee....</description>
+<dc:creator>untitled poem by me</dc:creator>
+<dc:date>2005-09-03T10:12:03</dc:date>
+<dc:subject>Entry 217 [untitled poem by me]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry216">
+<title>Entry 216 [IceY]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry216</link>
+<description>hahahahhahahah mo fo&#x27;s!!!! i spoke to Guinevere!! much love ya&#x27;ll :)</description>
+<dc:creator>IceY</dc:creator>
+<dc:date>2005-08-24T02:51:21</dc:date>
+<dc:subject>Entry 216 [IceY]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry215">
+<title>Entry 215 [IceY]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry215</link>
+<description>Much love Dusty.</description>
+<dc:creator>IceY</dc:creator>
+<dc:date>2005-08-23T17:43:21</dc:date>
+<dc:subject>Entry 215 [IceY]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry214">
+<title>Entry 214 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry214</link>
+<description>I love you IceY</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2005-08-23T13:50:31</dc:date>
+<dc:subject>Entry 214 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry213">
+<title>Entry 213 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry213</link>
+<description>That was wierd. Arkroot? wierd .. hey, guess what .. I&#x27;m bored, now, where is everybody? *stand by gwen with aformentioned dynamite*</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2005-08-23T13:50:05</dc:date>
+<dc:subject>Entry 213 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry212">
+<title>Entry 212 [local user]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry212</link>
+<description>no thanks ARKr00t.</description>
+<dc:creator>local user</dc:creator>
+<dc:date>2005-08-17T20:49:28</dc:date>
+<dc:subject>Entry 212 [local user]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry211">
+<title>Entry 211 [ARKr00t (81 (dot) 196 (dot) 62 (dot) 231 (dot) cablelink (dot) rdsor (dot) ro[81 (dot) 196 (dot) 62 (dot) 231])]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry211</link>
+<description>/server ismellfunny (dot) poop (dot) net -j #playWithMyPeePee</description>
+<dc:creator>ARKr00t (81 (dot) 196 (dot) 62 (dot) 231 (dot) cablelink (dot) rdsor (dot) ro[81 (dot) 196 (dot) 62 (dot) 231])</dc:creator>
+<dc:date>2005-08-16T14:58:35</dc:date>
+<dc:subject>Entry 211 [ARKr00t (81 (dot) 196 (dot) 62 (dot) 231 (dot) cablelink (dot) rdsor (dot) ro[81 (dot) 196 (dot) 62 (dot) 231])]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/210#entry210">
+<title>Entry 210 [ICEY]</title>
+<link>http://www.loveandnature.co.za/book/show/210#entry210</link>
+<description>yoooooooo momma.</description>
+<dc:creator>ICEY</dc:creator>
+<dc:date>2005-08-13T10:28:07</dc:date>
+<dc:subject>Entry 210 [ICEY]</dc:subject>
+</item>
+</rdf:RDF>

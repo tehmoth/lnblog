@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/1">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/1</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2003-10-27T00:39:30</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry21" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry20" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry19" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry18" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry17" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry16" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry15" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry14" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry13" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry12" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry11" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry10" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry9" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry8" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry7" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry6" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry5" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry4" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry3" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry2" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/1#entry1" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry21">
+<title>Entry 21 [Ewok]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry21</link>
+<description>Black Frog, the only thing furry in Knightnet is me :P Word.
+
+- Ewok</description>
+<dc:creator>Ewok</dc:creator>
+<dc:date>2003-10-27T00:39:30</dc:date>
+<dc:subject>Entry 21 [Ewok]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry20">
+<title>Entry 20 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry20</link>
+<description>would just like to thank timmeh for hosting our webby here
+thanks timmeh
+
+sigh</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-10-25T22:43:10</dc:date>
+<dc:subject>Entry 20 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry19">
+<title>Entry 19 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry19</link>
+<description>eh</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-10-25T22:41:52</dc:date>
+<dc:subject>Entry 19 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry18">
+<title>Entry 18 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry18</link>
+<description>TIS A GOOD DAY TO DIE!!!
+
+P (dot) S. black frog, whoever you may be, you scare me, heh.
+
+That is all...for now. :D</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-10-23T17:27:48</dc:date>
+<dc:subject>Entry 18 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry17">
+<title>Entry 17 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry17</link>
+<description>blame the white rabbit and time...
+
+I&#x27;d like to watch you sleep at night
+to hear you breathe by my side
+And though sleep leaves me behind
+there&#x27;s nowhere I&#x27;d rather be tonight...</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-10-23T07:50:12</dc:date>
+<dc:subject>Entry 17 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry16">
+<title>Entry 16 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry16</link>
+<description>Deep, very deep.
+
+Well now that i&#x27;m confused as all fuck, back to work i guess...
+
+P (dot) S. I blame Canada.</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-10-22T08:59:27</dc:date>
+<dc:subject>Entry 16 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry15">
+<title>Entry 15 [black frog]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry15</link>
+<description>or should it be furry frog..:/
+
+sometimes life makes you miserable...for no reason at all...
+even if you have all the reason to be extremely happy...
+you wait for someone, and they don&#x27;t show...and you are utterly miserable...
+why is that so...?
+
+croak...</description>
+<dc:creator>black frog</dc:creator>
+<dc:date>2003-10-21T17:09:12</dc:date>
+<dc:subject>Entry 15 [black frog]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry14">
+<title>Entry 14 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry14</link>
+<description>Oh yeah.
+
+Still bored.
+
+:D</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-10-20T21:46:08</dc:date>
+<dc:subject>Entry 14 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry13">
+<title>Entry 13 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry13</link>
+<description>Oh hell yeah i&#x27;m bored, AEHaeHAEAEHeAHaeHaeEHAAEHaehAE!!!</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-10-20T18:34:16</dc:date>
+<dc:subject>Entry 13 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry12">
+<title>Entry 12 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry12</link>
+<description>P (dot) S.
+
+^Casper, you suck.
+
+TigerRock, you are a moron.
+
+Hmmm, who else?
+
+Bah, fuck the lot of you.</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-10-20T14:07:39</dc:date>
+<dc:subject>Entry 12 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry11">
+<title>Entry 11 [timmeh]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry11</link>
+<description>Stop fucking with my server!
+
+That is all.</description>
+<dc:creator>timmeh</dc:creator>
+<dc:date>2003-10-20T14:06:39</dc:date>
+<dc:subject>Entry 11 [timmeh]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry10">
+<title>Entry 10 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry10</link>
+<description>woohoo, no more chopping!
+
+fantastic poem, below .. mmm ..</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-10-18T20:02:25</dc:date>
+<dc:subject>Entry 10 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry9">
+<title>Entry 9 [kridian again]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry9</link>
+<description>wehn one is young, work is scarse and one wishes to have more money. 
+
+but when one is older, work no longer has the perfect vision it had when one was young, and the young cannot understand why the older generation dislikes working so much, when you get so much money. 
+
+taxes always play a big role.
+[i wonder if this will chop off again]</description>
+<dc:creator>kridian again</dc:creator>
+<dc:date>2003-10-18T20:01:32</dc:date>
+<dc:subject>Entry 9 [kridian again]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry8">
+<title>Entry 8 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry8</link>
+<description>when one is young, work is scarse and one wishes to have more money.
+but when one is older, work no longer has the perfect vision it had when one was young, and the young cannot understand why the older generation dislikes working so much, when you get so much money.
+
+taxes play a big role.</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-10-18T19:49:42</dc:date>
+<dc:subject>Entry 8 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry7">
+<title>Entry 7 [quearwig]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry7</link>
+<description>well its good to have one more webby to go to instead of working.</description>
+<dc:creator>quearwig</dc:creator>
+<dc:date>2003-10-10T20:59:57</dc:date>
+<dc:subject>Entry 7 [quearwig]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry6">
+<title>Entry 6 [bclak forg teirs aigan :)]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry6</link>
+<description>e you...and always will...</description>
+<dc:creator>bclak forg teirs aigan :)</dc:creator>
+<dc:date>2003-10-09T10:16:26</dc:date>
+<dc:subject>Entry 6 [bclak forg teirs aigan :)]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry5">
+<title>Entry 5 [the bclak forg]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry5</link>
+<description>I know you think that I shouldn&#x27;t still love you
+I&#x27;ll tell you that
+But if I didn&#x27;t say it
+Well, I&#x27;d still have felt it
+Where&#x27;s the sense in that?
+
+I promise I&#x27;m not trying to make your life harder
+Or return to where we were
+
+Just want you to know that I still love you...</description>
+<dc:creator>the bclak forg</dc:creator>
+<dc:date>2003-10-09T10:13:43</dc:date>
+<dc:subject>Entry 5 [the bclak forg]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry4">
+<title>Entry 4 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry4</link>
+<description>oh good, the guestbook is working, even with globals on. woohoo.
+
+now sign please, don&#x27;t leech by just reading! sign!! 
+sign again if you already did.
+no excuses.</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-10-08T18:19:16</dc:date>
+<dc:subject>Entry 4 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry3">
+<title>Entry 3 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry3</link>
+<description>you make me sick
+because i adore you so</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-10-08T18:03:23</dc:date>
+<dc:subject>Entry 3 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry2">
+<title>Entry 2 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry2</link>
+<description>guestbook is not working due to globals being off, apologies. will try to make fix asap.</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>1973-05-18T04:23:20</dc:date>
+<dc:subject>Entry 2 [kridian]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/1#entry1">
+<title>Entry 1 [kridian]</title>
+<link>http://www.loveandnature.co.za/book/show/1#entry1</link>
+<description>testing guestbook ..</description>
+<dc:creator>kridian</dc:creator>
+<dc:date>2003-10-06T18:13:18</dc:date>
+<dc:subject>Entry 1 [kridian]</dc:subject>
+</item>
+</rdf:RDF>

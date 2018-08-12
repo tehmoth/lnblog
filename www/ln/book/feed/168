@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rdf.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.loveandnature/book/168">
+<title>Love And Nature Guestbook</title>
+<link>http://www.loveandnature/book/168</link>
+<description>Guestbook for irc://irc.loveandnature.co.za/love_and_nature</description>
+<dc:language>en-us</dc:language>
+<dc:date>2005-04-11T12:55:14</dc:date>
+<dc:publisher>jamesw@bsdhosting.co.za</dc:publisher>
+<dc:creator>jamesw@bsdhosting.co.za</dc:creator>
+<dc:subject>Everything and Nothing</dc:subject>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry188" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry187" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry186" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry185" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry184" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry183" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry182" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry181" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry180" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry179" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry178" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry177" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry176" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry175" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry174" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry173" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry172" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry171" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry170" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry169" />
+  <rdf:li rdf:resource="http://www.loveandnature.co.za/book/show/168#entry168" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry188">
+<title>Entry 188 [Moloch]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry188</link>
+<description>*sneaks around*</description>
+<dc:creator>Moloch</dc:creator>
+<dc:date>2005-04-11T12:55:14</dc:date>
+<dc:subject>Entry 188 [Moloch]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry187">
+<title>Entry 187 [Michelle]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry187</link>
+<description>He chica... Love the pics.... Sooches, smooches</description>
+<dc:creator>Michelle</dc:creator>
+<dc:date>2005-03-19T06:40:38</dc:date>
+<dc:subject>Entry 187 [Michelle]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry186">
+<title>Entry 186 [Willy Wobbledagger]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry186</link>
+<description>Blood drops are red
+And black eyes go blue
+The cat shot a dog
+And the mouse got one too</description>
+<dc:creator>Willy Wobbledagger</dc:creator>
+<dc:date>2005-02-22T14:51:58</dc:date>
+<dc:subject>Entry 186 [Willy Wobbledagger]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry185">
+<title>Entry 185 [Joolee]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry185</link>
+<description>dah! you must come to chat at irc (dot) disorient (dot) net
+
+we missssssssss you!</description>
+<dc:creator>Joolee</dc:creator>
+<dc:date>2005-02-05T08:17:22</dc:date>
+<dc:subject>Entry 185 [Joolee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry184">
+<title>Entry 184 [dahX]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry184</link>
+<description>dewdrop ... [VERY !!!] nice pic, if I looked even remotely human I would&#x27;ve been brave enuff to submit a pic as well ;)
+
+another ps ... what the .... ( ) happened to my earlier counterpart called
+&#x22;blackfrog&#x22; ???? 
+
+You still owe me some mail ... luv &#x26; kind regards &#x22;white frog the innocent&#x22; alias dahX</description>
+<dc:creator>dahX</dc:creator>
+<dc:date>2005-02-04T10:43:26</dc:date>
+<dc:subject>Entry 184 [dahX]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry183">
+<title>Entry 183 [dahX]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry183</link>
+<description>26th January 2005 - 08:05:06 PM 
+175 : Guinevere 
+I have breasts. 
+
+I have arms that are starting to look like Vin Diesel&#x27;s , unfortunately the hairstyle is 98% similar ... *sigh* ... well .... nobody can be perfect hey ..... *sweet smile*.
+
+PS Joolee , moth .... where are you guys nowadays ????</description>
+<dc:creator>dahX</dc:creator>
+<dc:date>2005-02-04T10:40:11</dc:date>
+<dc:subject>Entry 183 [dahX]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry182">
+<title>Entry 182 [DewDrop]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry182</link>
+<description>Do you think if the children pay attention to their artichokes that Michael wouldn&#x27;t want to fondle them?</description>
+<dc:creator>DewDrop</dc:creator>
+<dc:date>2005-02-03T21:41:15</dc:date>
+<dc:subject>Entry 182 [DewDrop]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry181">
+<title>Entry 181 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry181</link>
+<description>um ...</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2005-02-03T14:42:09</dc:date>
+<dc:subject>Entry 181 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry180">
+<title>Entry 180 [DewDrop]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry180</link>
+<description>yes! practise and feed them well! pet them and swing them from string! then.... YEN ONLY THEN.... vomit on them and giggle.... mmmmm... giggle!</description>
+<dc:creator>DewDrop</dc:creator>
+<dc:date>2005-01-31T10:29:44</dc:date>
+<dc:subject>Entry 180 [DewDrop]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry179">
+<title>Entry 179 [DewDrop]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry179</link>
+<description>*giggles with delight* ...and...And...and. And then... two huge buckets! Pour iodine from above her! Splashing on her knee caps, they quiver...And he is handsome, and they are beautiful, and the elephants are humping, and the children are dancing around in circles singing, and and and everyone wants to throw stuff at the elephants!</description>
+<dc:creator>DewDrop</dc:creator>
+<dc:date>2005-01-30T17:20:25</dc:date>
+<dc:subject>Entry 179 [DewDrop]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry178">
+<title>Entry 178 [eQ]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry178</link>
+<description>Is returned. Quake.</description>
+<dc:creator>eQ</dc:creator>
+<dc:date>2005-01-28T14:19:52</dc:date>
+<dc:subject>Entry 178 [eQ]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry177">
+<title>Entry 177 [Dusty]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry177</link>
+<description>I have a penis</description>
+<dc:creator>Dusty</dc:creator>
+<dc:date>2005-01-26T22:02:18</dc:date>
+<dc:subject>Entry 177 [Dusty]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry176">
+<title>Entry 176 [Guinevere]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry176</link>
+<description>I have breasts.</description>
+<dc:creator>Guinevere</dc:creator>
+<dc:date>2005-01-26T20:05:06</dc:date>
+<dc:subject>Entry 176 [Guinevere]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry175">
+<title>Entry 175 [Greiverz_PaiN]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry175</link>
+<description>I Live ^_^</description>
+<dc:creator>Greiverz_PaiN</dc:creator>
+<dc:date>2005-01-25T23:33:30</dc:date>
+<dc:subject>Entry 175 [Greiverz_PaiN]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry174">
+<title>Entry 174 [root]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry174</link>
+<description>I&#x27;m sure Moloch is enjoying his promotion, kinda like a dung beetle enjoys when he finally finishes rolling his dung ball. 
+
+But now he&#x27;s covered in dung, and there&#x27;s an even bigger dung ball waiting for him to roll.</description>
+<dc:creator>root</dc:creator>
+<dc:date>2005-01-25T05:08:25</dc:date>
+<dc:subject>Entry 174 [root]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry173">
+<title>Entry 173 [Moloch]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry173</link>
+<description>stupid people should have their skin removed, rolled in salt then stoned to death</description>
+<dc:creator>Moloch</dc:creator>
+<dc:date>2005-01-18T10:26:37</dc:date>
+<dc:subject>Entry 173 [Moloch]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry172">
+<title>Entry 172 [Joolee]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry172</link>
+<description>stupid people are annoying.</description>
+<dc:creator>Joolee</dc:creator>
+<dc:date>2005-01-16T18:58:50</dc:date>
+<dc:subject>Entry 172 [Joolee]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry171">
+<title>Entry 171 [IceY]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry171</link>
+<description>YAY!!</description>
+<dc:creator>IceY</dc:creator>
+<dc:date>2005-01-10T20:13:34</dc:date>
+<dc:subject>Entry 171 [IceY]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry170">
+<title>Entry 170 [Liner]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry170</link>
+<description>yay</description>
+<dc:creator>Liner</dc:creator>
+<dc:date>2005-01-10T20:13:15</dc:date>
+<dc:subject>Entry 170 [Liner]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry169">
+<title>Entry 169 [the doctor is in]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry169</link>
+<description>you are all in serious need ov my psychiatric azzistance, veirdos.</description>
+<dc:creator>the doctor is in</dc:creator>
+<dc:date>2005-01-05T04:23:56</dc:date>
+<dc:subject>Entry 169 [the doctor is in]</dc:subject>
+</item>
+<item rdf:about="http://www.loveandnature.co.za/book/show/168#entry168">
+<title>Entry 168 [IIIIIIIIIIIIIIIIIIIIIICEY]</title>
+<link>http://www.loveandnature.co.za/book/show/168#entry168</link>
+<description>yay, i am writing here.... ooooo, writing here!!! yay, i am taking up more space than you !!!!! and you!!!! hahahahahahahahahahahhahahaha yayay + yay = YAY!!!! HAPPY NEW YEARS MY LITTLE GIANT FRIENDS. Love you alll and thank you, and good night.,.,.,,..,.,.. BOO</description>
+<dc:creator>IIIIIIIIIIIIIIIIIIIIIICEY</dc:creator>
+<dc:date>2005-01-01T20:57:04</dc:date>
+<dc:subject>Entry 168 [IIIIIIIIIIIIIIIIIIIIIICEY]</dc:subject>
+</item>
+</rdf:RDF>
